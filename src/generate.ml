@@ -84,7 +84,7 @@ let is_flat_list ~shapes ~shp =
     | _ -> false
   with Not_found -> false
 
-let types is_ec2 shapes =
+let type_units is_ec2 shapes =
   let option_type shp = function
     | true -> Syntax.ty0 shp
     | false -> Syntax.ty1 "option" shp
@@ -478,21 +478,26 @@ let types is_ec2 shapes =
       @ tyextra
       |> Syntax.sig_ )
   in
+  ListLabels.map (scc shapes) ~f:(fun g ->
+      match g with
+      | `Rec group -> `Group (ListLabels.map group ~f:build_module)
+      | `Nonrec m -> `Single (build_module m))
+
+(* Assemble all shape modules into a single types.ml structure (the original
+   layout). [type_units] above returns one entry per strongly-connected
+   component so callers can also emit one file per shape; see --split-types. *)
+let types is_ec2 shapes =
   [ Syntax.open_ "Aws.BaseTypes"
   ; Syntax.(tylet "calendar" (ty0 "CalendarLib.Calendar.t"))
   ]
-  @ ListLabels.map (scc shapes) ~f:(fun g ->
-        match g with
-        | `Rec group ->
-            ListLabels.map group ~f:(fun m ->
-                let nm, str, sig_ = build_module m in
+  @ ListLabels.map (type_units is_ec2 shapes) ~f:(function
+        | `Group group ->
+            ListLabels.map group ~f:(fun (nm, str, sig_) ->
                 Syntax.module'_ nm str sig_)
             |> Syntax.rec_module_
-        | `Nonrec m ->
-            let nm, str, _ = build_module m in
-            Syntax.module_ nm str)
+        | `Single (nm, str, _sig) -> Syntax.module_ nm str)
 
-let op service version _shapes op signature_version =
+let op ?(split = false) service version _shapes op signature_version =
   let open Syntax in
   let mkty = function
     | None -> ty0 "unit"
@@ -613,17 +618,20 @@ let op service version _shapes op signature_version =
             (ident "None"))
          (ident "None"))
   in
+  (* When [split] is set, shapes are top-level library modules rather than
+     submodules of [Types], so the [open Types] is dropped (and would not
+     resolve). *)
   (* Tuple corresponding to (mli, ml) *)
-  ( [ sopen_ "Types"
-    ; stylet "input" (mkty op.Operation.input_shape)
+  ( (if split then [] else [ sopen_ "Types" ])
+    @ [ stylet "input" (mkty op.Operation.input_shape)
     ; stylet "output" (mkty op.Operation.output_shape)
     ; stylet "error" (ty0 "Errors_internal.t")
     ; sinclude_
         "Aws.Call"
         [ withty "input" "input"; withty "output" "output"; withty "error" "error" ]
     ]
-  , [ open_ "Types"
-    ; open_ "Aws"
+  , (if split then [] else [ open_ "Types" ])
+    @ [ open_ "Aws"
     ; tylet "input" (mkty op.Operation.input_shape)
     ; tylet "output" (mkty op.Operation.output_shape)
     ; tylet "error" (ty0 "Errors_internal.t")
