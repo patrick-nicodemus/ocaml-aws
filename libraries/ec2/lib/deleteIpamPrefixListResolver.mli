@@ -1,0 +1,7 @@
+open Types
+type input = DeleteIpamPrefixListResolverRequest.t
+type output = DeleteIpamPrefixListResolverResult.t
+type error = Errors_internal.t
+include
+  Aws.Call with type  input :=  input and type  output :=  output and type
+     error :=  error
