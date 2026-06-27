@@ -3,4 +3,5 @@
  (public_name aws-ec2)
  (synopsis "aws-Amazon Elastic Compute Cloud")
  (flags (:standard -w -27))
+ (ocamlopt_flags (:standard -Oclassic))
  (libraries aws))
