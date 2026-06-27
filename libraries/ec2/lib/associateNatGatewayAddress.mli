@@ -1,4 +1,3 @@
-open Types
 type input = AssociateNatGatewayAddressRequest.t
 type output = AssociateNatGatewayAddressResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = AttachClassicLinkVpcRequest.t
 type output = AttachClassicLinkVpcResult.t
 type error = Errors_internal.t

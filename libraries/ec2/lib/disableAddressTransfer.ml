@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableAddressTransferRequest.t
 type output = DisableAddressTransferResult.t

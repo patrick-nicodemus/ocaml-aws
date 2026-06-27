@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSecondaryNetworkRequest.t
 type output = DeleteSecondaryNetworkResult.t

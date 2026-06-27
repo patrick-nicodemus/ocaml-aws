@@ -1,4 +1,3 @@
-open Types
 type input = DisableAddressTransferRequest.t
 type output = DisableAddressTransferResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = StartInstancesRequest.t
 type output = StartInstancesResult.t

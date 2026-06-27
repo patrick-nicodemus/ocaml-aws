@@ -1,4 +1,3 @@
-open Types
 type input = EnableCapacityManagerRequest.t
 type output = EnableCapacityManagerResult.t
 type error = Errors_internal.t

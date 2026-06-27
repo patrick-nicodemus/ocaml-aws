@@ -1,4 +1,3 @@
-open Types
 type input = ReplaceVpnTunnelRequest.t
 type output = ReplaceVpnTunnelResult.t
 type error = Errors_internal.t

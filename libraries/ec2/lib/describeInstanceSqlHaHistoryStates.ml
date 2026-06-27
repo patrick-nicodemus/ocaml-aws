@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceSqlHaHistoryStatesRequest.t
 type output = DescribeInstanceSqlHaHistoryStatesResult.t

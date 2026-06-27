@@ -1,4 +1,3 @@
-open Types
 type input = GetFlowLogsIntegrationTemplateRequest.t
 type output = GetFlowLogsIntegrationTemplateResult.t
 type error = Errors_internal.t

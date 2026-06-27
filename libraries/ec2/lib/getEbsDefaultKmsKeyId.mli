@@ -1,4 +1,3 @@
-open Types
 type input = GetEbsDefaultKmsKeyIdRequest.t
 type output = GetEbsDefaultKmsKeyIdResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVerifiedAccessTrustProvidersRequest.t
 type output = DescribeVerifiedAccessTrustProvidersResult.t

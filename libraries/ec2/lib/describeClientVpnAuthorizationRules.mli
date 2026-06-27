@@ -1,4 +1,3 @@
-open Types
 type input = DescribeClientVpnAuthorizationRulesRequest.t
 type output = DescribeClientVpnAuthorizationRulesResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateSecondaryNetworkRequest.t
 type output = CreateSecondaryNetworkResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = RejectTransitGatewayMulticastDomainAssociationsRequest.t
 type output = RejectTransitGatewayMulticastDomainAssociationsResult.t
 type error = Errors_internal.t

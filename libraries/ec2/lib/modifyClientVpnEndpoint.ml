@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyClientVpnEndpointRequest.t
 type output = ModifyClientVpnEndpointResult.t

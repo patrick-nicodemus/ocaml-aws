@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateCoipCidrRequest.t
 type output = CreateCoipCidrResult.t

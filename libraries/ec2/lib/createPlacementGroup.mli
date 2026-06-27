@@ -1,4 +1,3 @@
-open Types
 type input = CreatePlacementGroupRequest.t
 type output = CreatePlacementGroupResult.t
 type error = Errors_internal.t

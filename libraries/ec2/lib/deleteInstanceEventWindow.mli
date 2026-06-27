@@ -1,4 +1,3 @@
-open Types
 type input = DeleteInstanceEventWindowRequest.t
 type output = DeleteInstanceEventWindowResult.t
 type error = Errors_internal.t

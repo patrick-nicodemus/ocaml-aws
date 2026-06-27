@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableVpcClassicLinkRequest.t
 type output = EnableVpcClassicLinkResult.t

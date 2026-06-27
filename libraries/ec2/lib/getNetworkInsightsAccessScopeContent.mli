@@ -1,4 +1,3 @@
-open Types
 type input = GetNetworkInsightsAccessScopeContentRequest.t
 type output = GetNetworkInsightsAccessScopeContentResult.t
 type error = Errors_internal.t

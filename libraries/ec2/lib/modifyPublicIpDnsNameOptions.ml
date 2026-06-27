@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyPublicIpDnsNameOptionsRequest.t
 type output = ModifyPublicIpDnsNameOptionsResult.t

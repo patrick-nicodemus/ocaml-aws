@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyReservedInstancesRequest.t
 type output = ModifyReservedInstancesResult.t

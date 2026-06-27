@@ -1,4 +1,3 @@
-open Types
 type input = CreateIpamPrefixListResolverRequest.t
 type output = CreateIpamPrefixListResolverResult.t
 type error = Errors_internal.t

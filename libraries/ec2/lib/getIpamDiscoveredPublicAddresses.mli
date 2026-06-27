@@ -1,4 +1,3 @@
-open Types
 type input = GetIpamDiscoveredPublicAddressesRequest.t
 type output = GetIpamDiscoveredPublicAddressesResult.t
 type error = Errors_internal.t

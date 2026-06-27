@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateInstanceEventWindowRequest.t
 type output = DisassociateInstanceEventWindowResult.t
 type error = Errors_internal.t

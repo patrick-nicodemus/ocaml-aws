@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceNetworkPerformanceRequest.t
 type output = ModifyInstanceNetworkPerformanceResult.t
 type error = Errors_internal.t

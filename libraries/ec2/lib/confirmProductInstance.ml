@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ConfirmProductInstanceRequest.t
 type output = ConfirmProductInstanceResult.t

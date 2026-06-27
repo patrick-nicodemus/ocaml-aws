@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeReservedInstancesOfferingsRequest.t
 type output = DescribeReservedInstancesOfferingsResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = CreateCustomerGatewayRequest.t
 type output = CreateCustomerGatewayResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceConnectEndpointRequest.t
 type output = ModifyInstanceConnectEndpointResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteIpamPolicyRequest.t
 type output = DeleteIpamPolicyResult.t
 type error = Errors_internal.t

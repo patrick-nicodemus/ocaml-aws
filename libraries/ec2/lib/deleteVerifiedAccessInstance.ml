@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVerifiedAccessInstanceRequest.t
 type output = DeleteVerifiedAccessInstanceResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeFleetHistoryRequest.t
 type output = DescribeFleetHistoryResult.t
 type error = Errors_internal.t

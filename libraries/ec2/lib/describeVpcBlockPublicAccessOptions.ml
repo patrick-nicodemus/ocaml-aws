@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcBlockPublicAccessOptionsRequest.t
 type output = DescribeVpcBlockPublicAccessOptionsResult.t

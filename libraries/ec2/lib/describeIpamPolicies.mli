@@ -1,4 +1,3 @@
-open Types
 type input = DescribeIpamPoliciesRequest.t
 type output = DescribeIpamPoliciesResult.t
 type error = Errors_internal.t

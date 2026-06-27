@@ -1,4 +1,3 @@
-open Types
 type input = GetVpcResourcesBlockingEncryptionEnforcementRequest.t
 type output = GetVpcResourcesBlockingEncryptionEnforcementResult.t
 type error = Errors_internal.t

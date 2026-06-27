@@ -1,4 +1,3 @@
-open Types
 type input = GetVerifiedAccessGroupPolicyRequest.t
 type output = GetVerifiedAccessGroupPolicyResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceCapacityReservationAttributesRequest.t
 type output = ModifyInstanceCapacityReservationAttributesResult.t
 type error = Errors_internal.t

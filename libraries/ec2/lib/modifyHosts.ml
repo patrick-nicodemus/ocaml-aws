@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyHostsRequest.t
 type output = ModifyHostsResult.t

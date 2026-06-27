@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RejectVpcEndpointConnectionsRequest.t
 type output = RejectVpcEndpointConnectionsResult.t

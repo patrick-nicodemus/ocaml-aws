@@ -1,4 +1,3 @@
-open Types
 type input = DeleteTransitGatewayConnectPeerRequest.t
 type output = DeleteTransitGatewayConnectPeerResult.t
 type error = Errors_internal.t

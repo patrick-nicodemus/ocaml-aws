@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeMovingAddressesRequest.t
 type output = DescribeMovingAddressesResult.t

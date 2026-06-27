@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateVpcCidrBlockRequest.t
 type output = DisassociateVpcCidrBlockResult.t

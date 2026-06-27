@@ -1,4 +1,3 @@
-open Types
 type input = AssignPrivateIpAddressesRequest.t
 type output = AssignPrivateIpAddressesResult.t
 type error = Errors_internal.t

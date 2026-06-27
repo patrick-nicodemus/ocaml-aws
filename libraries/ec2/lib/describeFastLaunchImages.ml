@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeFastLaunchImagesRequest.t
 type output = DescribeFastLaunchImagesResult.t

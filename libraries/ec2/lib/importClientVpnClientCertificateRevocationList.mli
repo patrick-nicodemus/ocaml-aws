@@ -1,4 +1,3 @@
-open Types
 type input = ImportClientVpnClientCertificateRevocationListRequest.t
 type output = ImportClientVpnClientCertificateRevocationListResult.t
 type error = Errors_internal.t

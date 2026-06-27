@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateImageUsageReportRequest.t
 type output = CreateImageUsageReportResult.t

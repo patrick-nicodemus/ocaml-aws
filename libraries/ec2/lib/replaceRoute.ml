@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReplaceRouteRequest.t
 type output = unit

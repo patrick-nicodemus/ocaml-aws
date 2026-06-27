@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpcEndpointServicePayerResponsibilityRequest.t
 type output = ModifyVpcEndpointServicePayerResponsibilityResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeIdFormatRequest.t
 type output = DescribeIdFormatResult.t
 type error = Errors_internal.t

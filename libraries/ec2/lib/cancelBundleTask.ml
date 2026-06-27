@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CancelBundleTaskRequest.t
 type output = CancelBundleTaskResult.t

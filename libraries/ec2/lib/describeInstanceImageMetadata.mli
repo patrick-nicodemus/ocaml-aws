@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceImageMetadataRequest.t
 type output = DescribeInstanceImageMetadataResult.t
 type error = Errors_internal.t

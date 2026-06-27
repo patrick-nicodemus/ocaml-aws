@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSecurityGroupRequest.t
 type output = DeleteSecurityGroupResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateMacSystemIntegrityProtectionModificationTaskRequest.t
 type output = CreateMacSystemIntegrityProtectionModificationTaskResult.t

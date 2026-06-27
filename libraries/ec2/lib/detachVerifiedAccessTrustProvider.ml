@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DetachVerifiedAccessTrustProviderRequest.t
 type output = DetachVerifiedAccessTrustProviderResult.t

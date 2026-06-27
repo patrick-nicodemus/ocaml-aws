@@ -1,4 +1,3 @@
-open Types
 type input = AllocateHostsRequest.t
 type output = AllocateHostsResult.t
 type error = Errors_internal.t

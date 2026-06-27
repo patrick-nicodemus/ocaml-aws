@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateNetworkInterfacePermissionRequest.t
 type output = CreateNetworkInterfacePermissionResult.t

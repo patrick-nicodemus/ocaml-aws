@@ -1,4 +1,3 @@
-open Types
 type input = ExportClientVpnClientConfigurationRequest.t
 type output = ExportClientVpnClientConfigurationResult.t
 type error = Errors_internal.t

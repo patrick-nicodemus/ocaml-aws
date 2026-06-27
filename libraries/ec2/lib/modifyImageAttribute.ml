@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyImageAttributeRequest.t
 type output = unit

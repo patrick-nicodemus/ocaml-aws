@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceMetadataDefaultsRequest.t
 type output = ModifyInstanceMetadataDefaultsResult.t

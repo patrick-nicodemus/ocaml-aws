@@ -1,4 +1,3 @@
-open Types
 type input = CreateLocalGatewayRouteTableRequest.t
 type output = CreateLocalGatewayRouteTableResult.t
 type error = Errors_internal.t

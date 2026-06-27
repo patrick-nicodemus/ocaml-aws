@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CopyFpgaImageRequest.t
 type output = CopyFpgaImageResult.t

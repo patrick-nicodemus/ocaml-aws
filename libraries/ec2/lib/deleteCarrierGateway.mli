@@ -1,4 +1,3 @@
-open Types
 type input = DeleteCarrierGatewayRequest.t
 type output = DeleteCarrierGatewayResult.t
 type error = Errors_internal.t

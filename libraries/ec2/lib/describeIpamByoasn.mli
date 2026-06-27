@@ -1,4 +1,3 @@
-open Types
 type input = DescribeIpamByoasnRequest.t
 type output = DescribeIpamByoasnResult.t
 type error = Errors_internal.t

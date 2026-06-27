@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcEndpointConnectionsRequest.t
 type output = DescribeVpcEndpointConnectionsResult.t

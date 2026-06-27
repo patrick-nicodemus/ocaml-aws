@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DetachImageWatermarkRequest.t
 type output = DetachImageWatermarkResult.t

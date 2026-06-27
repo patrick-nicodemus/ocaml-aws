@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeIpv6PoolsRequest.t
 type output = DescribeIpv6PoolsResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteSubnetCidrReservationRequest.t
 type output = DeleteSubnetCidrReservationResult.t
 type error = Errors_internal.t

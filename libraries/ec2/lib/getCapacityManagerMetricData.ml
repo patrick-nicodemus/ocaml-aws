@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetCapacityManagerMetricDataRequest.t
 type output = GetCapacityManagerMetricDataResult.t

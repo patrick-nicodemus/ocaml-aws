@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeSecurityGroupRulesRequest.t
 type output = DescribeSecurityGroupRulesResult.t

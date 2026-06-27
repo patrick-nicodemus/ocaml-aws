@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ProvisionPublicIpv4PoolCidrRequest.t
 type output = ProvisionPublicIpv4PoolCidrResult.t

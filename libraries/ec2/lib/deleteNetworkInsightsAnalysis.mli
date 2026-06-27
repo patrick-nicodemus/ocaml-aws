@@ -1,4 +1,3 @@
-open Types
 type input = DeleteNetworkInsightsAnalysisRequest.t
 type output = DeleteNetworkInsightsAnalysisResult.t
 type error = Errors_internal.t

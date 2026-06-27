@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetVpnConnectionDeviceSampleConfigurationRequest.t
 type output = GetVpnConnectionDeviceSampleConfigurationResult.t

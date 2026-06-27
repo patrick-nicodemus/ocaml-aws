@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableSerialConsoleAccessRequest.t
 type output = EnableSerialConsoleAccessResult.t

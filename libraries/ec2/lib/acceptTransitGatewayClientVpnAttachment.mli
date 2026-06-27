@@ -1,4 +1,3 @@
-open Types
 type input = AcceptTransitGatewayClientVpnAttachmentRequest.t
 type output = AcceptTransitGatewayClientVpnAttachmentResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = EnableReachabilityAnalyzerOrganizationSharingRequest.t
 type output = EnableReachabilityAnalyzerOrganizationSharingResult.t
 type error = Errors_internal.t

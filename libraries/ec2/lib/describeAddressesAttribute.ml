@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeAddressesAttributeRequest.t
 type output = DescribeAddressesAttributeResult.t

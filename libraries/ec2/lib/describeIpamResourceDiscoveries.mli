@@ -1,4 +1,3 @@
-open Types
 type input = DescribeIpamResourceDiscoveriesRequest.t
 type output = DescribeIpamResourceDiscoveriesResult.t
 type error = Errors_internal.t

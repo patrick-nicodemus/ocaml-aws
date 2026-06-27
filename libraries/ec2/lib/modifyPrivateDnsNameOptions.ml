@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyPrivateDnsNameOptionsRequest.t
 type output = ModifyPrivateDnsNameOptionsResult.t

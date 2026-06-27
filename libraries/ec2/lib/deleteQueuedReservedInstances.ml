@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteQueuedReservedInstancesRequest.t
 type output = DeleteQueuedReservedInstancesResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = ReplaceIamInstanceProfileAssociationRequest.t
 type output = ReplaceIamInstanceProfileAssociationResult.t
 type error = Errors_internal.t

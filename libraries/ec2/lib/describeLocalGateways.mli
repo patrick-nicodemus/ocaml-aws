@@ -1,4 +1,3 @@
-open Types
 type input = DescribeLocalGatewaysRequest.t
 type output = DescribeLocalGatewaysResult.t
 type error = Errors_internal.t

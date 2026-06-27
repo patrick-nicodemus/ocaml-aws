@@ -1,4 +1,3 @@
-open Types
 type input = CreateNetworkInsightsPathRequest.t
 type output = CreateNetworkInsightsPathResult.t
 type error = Errors_internal.t

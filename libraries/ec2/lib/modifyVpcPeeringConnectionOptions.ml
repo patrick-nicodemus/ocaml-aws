@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpcPeeringConnectionOptionsRequest.t
 type output = ModifyVpcPeeringConnectionOptionsResult.t

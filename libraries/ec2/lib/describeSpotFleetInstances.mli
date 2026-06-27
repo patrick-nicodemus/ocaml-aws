@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSpotFleetInstancesRequest.t
 type output = DescribeSpotFleetInstancesResponse.t
 type error = Errors_internal.t

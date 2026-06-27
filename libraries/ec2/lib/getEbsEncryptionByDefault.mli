@@ -1,4 +1,3 @@
-open Types
 type input = GetEbsEncryptionByDefaultRequest.t
 type output = GetEbsEncryptionByDefaultResult.t
 type error = Errors_internal.t

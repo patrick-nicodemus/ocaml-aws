@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVpnGatewayRequest.t
 type output = unit

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeOutpostLagsRequest.t
 type output = DescribeOutpostLagsResult.t

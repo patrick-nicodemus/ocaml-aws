@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableCapacityManagerRequest.t
 type output = DisableCapacityManagerResult.t

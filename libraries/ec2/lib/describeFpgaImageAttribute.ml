@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeFpgaImageAttributeRequest.t
 type output = DescribeFpgaImageAttributeResult.t

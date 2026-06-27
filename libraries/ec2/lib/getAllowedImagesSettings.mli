@@ -1,4 +1,3 @@
-open Types
 type input = GetAllowedImagesSettingsRequest.t
 type output = GetAllowedImagesSettingsResult.t
 type error = Errors_internal.t

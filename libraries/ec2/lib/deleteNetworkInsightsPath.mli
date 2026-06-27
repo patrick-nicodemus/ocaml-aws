@@ -1,4 +1,3 @@
-open Types
 type input = DeleteNetworkInsightsPathRequest.t
 type output = DeleteNetworkInsightsPathResult.t
 type error = Errors_internal.t

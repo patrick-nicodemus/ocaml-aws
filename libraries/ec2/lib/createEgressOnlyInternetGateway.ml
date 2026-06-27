@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateEgressOnlyInternetGatewayRequest.t
 type output = CreateEgressOnlyInternetGatewayResult.t

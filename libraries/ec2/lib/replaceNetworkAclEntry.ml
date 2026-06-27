@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReplaceNetworkAclEntryRequest.t
 type output = unit

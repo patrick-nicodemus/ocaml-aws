@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RestoreVolumeFromRecycleBinRequest.t
 type output = RestoreVolumeFromRecycleBinResult.t

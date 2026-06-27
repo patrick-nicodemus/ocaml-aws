@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateDhcpOptionsRequest.t
 type output = CreateDhcpOptionsResult.t

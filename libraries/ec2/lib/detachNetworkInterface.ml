@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DetachNetworkInterfaceRequest.t
 type output = unit

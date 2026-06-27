@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateInterruptibleCapacityReservationAllocationRequest.t
 type output = CreateInterruptibleCapacityReservationAllocationResult.t

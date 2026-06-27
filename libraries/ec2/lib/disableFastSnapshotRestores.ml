@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableFastSnapshotRestoresRequest.t
 type output = DisableFastSnapshotRestoresResult.t

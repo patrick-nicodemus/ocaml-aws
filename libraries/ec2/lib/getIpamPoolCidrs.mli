@@ -1,4 +1,3 @@
-open Types
 type input = GetIpamPoolCidrsRequest.t
 type output = GetIpamPoolCidrsResult.t
 type error = Errors_internal.t

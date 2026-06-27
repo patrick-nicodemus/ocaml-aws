@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyLocalGatewayRouteRequest.t
 type output = ModifyLocalGatewayRouteResult.t

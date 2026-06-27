@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AttachVolumeRequest.t
 type output = VolumeAttachment.t

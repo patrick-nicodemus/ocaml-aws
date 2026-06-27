@@ -1,4 +1,3 @@
-open Types
 type input = DescribeLockedSnapshotsRequest.t
 type output = DescribeLockedSnapshotsResult.t
 type error = Errors_internal.t

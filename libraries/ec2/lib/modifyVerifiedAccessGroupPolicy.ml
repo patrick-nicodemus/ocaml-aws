@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVerifiedAccessGroupPolicyRequest.t
 type output = ModifyVerifiedAccessGroupPolicyResult.t

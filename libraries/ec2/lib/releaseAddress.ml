@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReleaseAddressRequest.t
 type output = unit

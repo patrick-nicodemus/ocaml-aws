@@ -1,4 +1,3 @@
-open Types
 type input = CreateSpotDatafeedSubscriptionRequest.t
 type output = CreateSpotDatafeedSubscriptionResult.t
 type error = Errors_internal.t

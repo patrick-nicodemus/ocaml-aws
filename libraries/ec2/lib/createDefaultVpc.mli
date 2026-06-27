@@ -1,4 +1,3 @@
-open Types
 type input = CreateDefaultVpcRequest.t
 type output = CreateDefaultVpcResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSecondaryInterfacesRequest.t
 type output = DescribeSecondaryInterfacesResult.t
 type error = Errors_internal.t

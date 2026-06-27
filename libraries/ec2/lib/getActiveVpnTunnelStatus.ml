@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetActiveVpnTunnelStatusRequest.t
 type output = GetActiveVpnTunnelStatusResult.t

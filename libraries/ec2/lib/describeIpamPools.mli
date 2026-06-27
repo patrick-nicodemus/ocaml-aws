@@ -1,4 +1,3 @@
-open Types
 type input = DescribeIpamPoolsRequest.t
 type output = DescribeIpamPoolsResult.t
 type error = Errors_internal.t

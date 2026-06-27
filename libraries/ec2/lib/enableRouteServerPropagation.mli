@@ -1,4 +1,3 @@
-open Types
 type input = EnableRouteServerPropagationRequest.t
 type output = EnableRouteServerPropagationResult.t
 type error = Errors_internal.t

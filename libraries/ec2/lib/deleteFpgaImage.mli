@@ -1,4 +1,3 @@
-open Types
 type input = DeleteFpgaImageRequest.t
 type output = DeleteFpgaImageResult.t
 type error = Errors_internal.t

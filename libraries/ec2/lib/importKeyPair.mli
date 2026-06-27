@@ -1,4 +1,3 @@
-open Types
 type input = ImportKeyPairRequest.t
 type output = ImportKeyPairResult.t
 type error = Errors_internal.t

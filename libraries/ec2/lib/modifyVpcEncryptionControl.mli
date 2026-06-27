@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVpcEncryptionControlRequest.t
 type output = ModifyVpcEncryptionControlResult.t
 type error = Errors_internal.t

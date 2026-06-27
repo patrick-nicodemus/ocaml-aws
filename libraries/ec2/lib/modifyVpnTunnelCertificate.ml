@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpnTunnelCertificateRequest.t
 type output = ModifyVpnTunnelCertificateResult.t

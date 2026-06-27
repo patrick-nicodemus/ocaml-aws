@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSecurityGroupRulesRequest.t
 type output = DescribeSecurityGroupRulesResult.t
 type error = Errors_internal.t

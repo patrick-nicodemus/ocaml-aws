@@ -1,4 +1,3 @@
-open Types
 type input = ModifyPrivateDnsNameOptionsRequest.t
 type output = ModifyPrivateDnsNameOptionsResult.t
 type error = Errors_internal.t

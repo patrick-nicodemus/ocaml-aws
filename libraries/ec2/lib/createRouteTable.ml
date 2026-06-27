@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateRouteTableRequest.t
 type output = CreateRouteTableResult.t

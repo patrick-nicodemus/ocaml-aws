@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeHostReservationOfferingsRequest.t
 type output = DescribeHostReservationOfferingsResult.t

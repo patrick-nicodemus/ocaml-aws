@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RestoreAddressToClassicRequest.t
 type output = RestoreAddressToClassicResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeAccountAttributesRequest.t
 type output = DescribeAccountAttributesResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVpcBlockPublicAccessExclusionRequest.t
 type output = ModifyVpcBlockPublicAccessExclusionResult.t
 type error = Errors_internal.t

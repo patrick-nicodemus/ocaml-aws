@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamPoolCidrsRequest.t
 type output = GetIpamPoolCidrsResult.t

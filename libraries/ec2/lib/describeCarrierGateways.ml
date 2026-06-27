@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCarrierGatewaysRequest.t
 type output = DescribeCarrierGatewaysResult.t

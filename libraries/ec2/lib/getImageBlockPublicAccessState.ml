@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetImageBlockPublicAccessStateRequest.t
 type output = GetImageBlockPublicAccessStateResult.t

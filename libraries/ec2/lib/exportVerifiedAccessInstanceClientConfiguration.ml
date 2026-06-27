@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ExportVerifiedAccessInstanceClientConfigurationRequest.t
 type output = ExportVerifiedAccessInstanceClientConfigurationResult.t

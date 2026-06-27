@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteInstanceConnectEndpointRequest.t
 type output = DeleteInstanceConnectEndpointResult.t

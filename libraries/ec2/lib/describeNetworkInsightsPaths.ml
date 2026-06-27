@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeNetworkInsightsPathsRequest.t
 type output = DescribeNetworkInsightsPathsResult.t

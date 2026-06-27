@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ExportClientVpnClientConfigurationRequest.t
 type output = ExportClientVpnClientConfigurationResult.t

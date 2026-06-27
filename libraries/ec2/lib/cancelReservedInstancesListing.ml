@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CancelReservedInstancesListingRequest.t
 type output = CancelReservedInstancesListingResult.t

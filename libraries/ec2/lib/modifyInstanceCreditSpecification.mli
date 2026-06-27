@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceCreditSpecificationRequest.t
 type output = ModifyInstanceCreditSpecificationResult.t
 type error = Errors_internal.t

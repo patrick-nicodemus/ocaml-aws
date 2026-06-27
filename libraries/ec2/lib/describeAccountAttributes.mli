@@ -1,4 +1,3 @@
-open Types
 type input = DescribeAccountAttributesRequest.t
 type output = DescribeAccountAttributesResult.t
 type error = Errors_internal.t

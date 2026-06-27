@@ -1,4 +1,3 @@
-open Types
 type input = DeleteCapacityManagerDataExportRequest.t
 type output = DeleteCapacityManagerDataExportResult.t
 type error = Errors_internal.t

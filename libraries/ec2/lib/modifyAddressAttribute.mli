@@ -1,4 +1,3 @@
-open Types
 type input = ModifyAddressAttributeRequest.t
 type output = ModifyAddressAttributeResult.t
 type error = Errors_internal.t

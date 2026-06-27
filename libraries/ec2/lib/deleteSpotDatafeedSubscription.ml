@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSpotDatafeedSubscriptionRequest.t
 type output = unit

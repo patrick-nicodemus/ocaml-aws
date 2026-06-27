@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RestoreSnapshotFromRecycleBinRequest.t
 type output = RestoreSnapshotFromRecycleBinResult.t

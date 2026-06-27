@@ -1,4 +1,3 @@
-open Types
 type input = GetInstanceMetadataDefaultsRequest.t
 type output = GetInstanceMetadataDefaultsResult.t
 type error = Errors_internal.t

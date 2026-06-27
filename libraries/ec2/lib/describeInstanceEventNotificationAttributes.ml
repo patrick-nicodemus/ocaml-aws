@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceEventNotificationAttributesRequest.t
 type output = DescribeInstanceEventNotificationAttributesResult.t

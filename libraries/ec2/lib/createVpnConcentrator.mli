@@ -1,4 +1,3 @@
-open Types
 type input = CreateVpnConcentratorRequest.t
 type output = CreateVpnConcentratorResult.t
 type error = Errors_internal.t

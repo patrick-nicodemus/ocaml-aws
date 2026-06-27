@@ -1,4 +1,3 @@
-open Types
 type input = DescribeVpcEndpointServicePermissionsRequest.t
 type output = DescribeVpcEndpointServicePermissionsResult.t
 type error = Errors_internal.t

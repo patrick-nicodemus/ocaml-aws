@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVolumeRequest.t
 type output = ModifyVolumeResult.t

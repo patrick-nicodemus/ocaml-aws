@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeTagsRequest.t
 type output = DescribeTagsResult.t

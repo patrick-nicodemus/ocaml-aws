@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateIpamPoolRequest.t
 type output = CreateIpamPoolResult.t

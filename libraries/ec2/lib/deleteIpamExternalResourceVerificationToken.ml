@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteIpamExternalResourceVerificationTokenRequest.t
 type output = DeleteIpamExternalResourceVerificationTokenResult.t

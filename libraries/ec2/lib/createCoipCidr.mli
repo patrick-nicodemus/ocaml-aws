@@ -1,4 +1,3 @@
-open Types
 type input = CreateCoipCidrRequest.t
 type output = CreateCoipCidrResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateTransitGatewayMeteringPolicyRequest.t
 type output = CreateTransitGatewayMeteringPolicyResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVpcEndpointConnectionNotificationRequest.t
 type output = ModifyVpcEndpointConnectionNotificationResult.t
 type error = Errors_internal.t

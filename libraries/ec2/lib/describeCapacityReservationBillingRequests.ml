@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCapacityReservationBillingRequestsRequest.t
 type output = DescribeCapacityReservationBillingRequestsResult.t

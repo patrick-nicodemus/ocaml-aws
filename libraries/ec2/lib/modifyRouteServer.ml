@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyRouteServerRequest.t
 type output = ModifyRouteServerResult.t

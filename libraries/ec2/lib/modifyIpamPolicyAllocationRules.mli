@@ -1,4 +1,3 @@
-open Types
 type input = ModifyIpamPolicyAllocationRulesRequest.t
 type output = ModifyIpamPolicyAllocationRulesResult.t
 type error = Errors_internal.t

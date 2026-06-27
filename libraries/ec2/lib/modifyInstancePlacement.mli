@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstancePlacementRequest.t
 type output = ModifyInstancePlacementResult.t
 type error = Errors_internal.t

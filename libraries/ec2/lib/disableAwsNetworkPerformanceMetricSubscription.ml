@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableAwsNetworkPerformanceMetricSubscriptionRequest.t
 type output = DisableAwsNetworkPerformanceMetricSubscriptionResult.t

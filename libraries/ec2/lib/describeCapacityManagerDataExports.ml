@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCapacityManagerDataExportsRequest.t
 type output = DescribeCapacityManagerDataExportsResult.t

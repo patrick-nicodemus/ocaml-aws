@@ -1,4 +1,3 @@
-open Types
 type input = DescribeTrunkInterfaceAssociationsRequest.t
 type output = DescribeTrunkInterfaceAssociationsResult.t
 type error = Errors_internal.t

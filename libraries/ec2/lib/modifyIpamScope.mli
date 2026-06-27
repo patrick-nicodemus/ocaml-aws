@@ -1,4 +1,3 @@
-open Types
 type input = ModifyIpamScopeRequest.t
 type output = ModifyIpamScopeResult.t
 type error = Errors_internal.t

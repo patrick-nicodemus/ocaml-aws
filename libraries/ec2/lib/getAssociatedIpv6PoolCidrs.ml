@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetAssociatedIpv6PoolCidrsRequest.t
 type output = GetAssociatedIpv6PoolCidrsResult.t

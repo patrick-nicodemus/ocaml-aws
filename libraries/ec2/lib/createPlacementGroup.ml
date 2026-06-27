@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreatePlacementGroupRequest.t
 type output = CreatePlacementGroupResult.t

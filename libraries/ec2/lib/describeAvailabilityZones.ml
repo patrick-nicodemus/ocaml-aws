@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeAvailabilityZonesRequest.t
 type output = DescribeAvailabilityZonesResult.t

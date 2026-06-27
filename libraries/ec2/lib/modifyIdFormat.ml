@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyIdFormatRequest.t
 type output = unit

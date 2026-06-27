@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCapacityBlocksRequest.t
 type output = DescribeCapacityBlocksResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcPeeringConnectionsRequest.t
 type output = DescribeVpcPeeringConnectionsResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeImageUsageReportEntriesRequest.t
 type output = DescribeImageUsageReportEntriesResult.t
 type error = Errors_internal.t

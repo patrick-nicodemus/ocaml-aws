@@ -1,4 +1,3 @@
-open Types
 type input = AssociateTrunkInterfaceRequest.t
 type output = AssociateTrunkInterfaceResult.t
 type error = Errors_internal.t

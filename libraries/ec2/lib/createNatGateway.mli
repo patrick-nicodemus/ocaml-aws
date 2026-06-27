@@ -1,4 +1,3 @@
-open Types
 type input = CreateNatGatewayRequest.t
 type output = CreateNatGatewayResult.t
 type error = Errors_internal.t

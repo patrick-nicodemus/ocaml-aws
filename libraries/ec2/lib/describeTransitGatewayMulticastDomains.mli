@@ -1,4 +1,3 @@
-open Types
 type input = DescribeTransitGatewayMulticastDomainsRequest.t
 type output = DescribeTransitGatewayMulticastDomainsResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeregisterTransitGatewayMulticastGroupMembersRequest.t
 type output = DeregisterTransitGatewayMulticastGroupMembersResult.t

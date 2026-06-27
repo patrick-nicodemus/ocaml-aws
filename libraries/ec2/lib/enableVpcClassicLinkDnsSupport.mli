@@ -1,4 +1,3 @@
-open Types
 type input = EnableVpcClassicLinkDnsSupportRequest.t
 type output = EnableVpcClassicLinkDnsSupportResult.t
 type error = Errors_internal.t

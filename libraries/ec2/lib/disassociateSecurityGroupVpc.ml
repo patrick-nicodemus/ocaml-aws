@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateSecurityGroupVpcRequest.t
 type output = DisassociateSecurityGroupVpcResult.t

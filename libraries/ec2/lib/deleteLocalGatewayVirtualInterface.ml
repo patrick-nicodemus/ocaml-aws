@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteLocalGatewayVirtualInterfaceRequest.t
 type output = DeleteLocalGatewayVirtualInterfaceResult.t

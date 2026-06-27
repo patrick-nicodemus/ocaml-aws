@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateVpcCidrBlockRequest.t
 type output = DisassociateVpcCidrBlockResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = GetSpotPlacementScoresRequest.t
 type output = GetSpotPlacementScoresResult.t
 type error = Errors_internal.t

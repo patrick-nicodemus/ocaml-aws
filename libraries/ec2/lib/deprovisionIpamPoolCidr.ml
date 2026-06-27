@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeprovisionIpamPoolCidrRequest.t
 type output = DeprovisionIpamPoolCidrResult.t

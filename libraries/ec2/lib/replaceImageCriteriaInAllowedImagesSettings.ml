@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReplaceImageCriteriaInAllowedImagesSettingsRequest.t
 type output = ReplaceImageCriteriaInAllowedImagesSettingsResult.t

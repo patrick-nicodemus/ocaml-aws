@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeprovisionIpamByoasnRequest.t
 type output = DeprovisionIpamByoasnResult.t

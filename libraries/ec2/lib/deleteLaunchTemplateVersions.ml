@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteLaunchTemplateVersionsRequest.t
 type output = DeleteLaunchTemplateVersionsResult.t

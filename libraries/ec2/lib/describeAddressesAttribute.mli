@@ -1,4 +1,3 @@
-open Types
 type input = DescribeAddressesAttributeRequest.t
 type output = DescribeAddressesAttributeResult.t
 type error = Errors_internal.t

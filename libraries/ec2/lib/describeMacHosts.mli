@@ -1,4 +1,3 @@
-open Types
 type input = DescribeMacHostsRequest.t
 type output = DescribeMacHostsResult.t
 type error = Errors_internal.t

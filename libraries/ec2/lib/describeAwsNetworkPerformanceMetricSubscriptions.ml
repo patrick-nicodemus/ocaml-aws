@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeAwsNetworkPerformanceMetricSubscriptionsRequest.t
 type output = DescribeAwsNetworkPerformanceMetricSubscriptionsResult.t

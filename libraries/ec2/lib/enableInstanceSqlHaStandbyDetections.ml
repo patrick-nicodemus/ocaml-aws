@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableInstanceSqlHaStandbyDetectionsRequest.t
 type output = EnableInstanceSqlHaStandbyDetectionsResult.t

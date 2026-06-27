@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateSubnetCidrReservationRequest.t
 type output = CreateSubnetCidrReservationResult.t

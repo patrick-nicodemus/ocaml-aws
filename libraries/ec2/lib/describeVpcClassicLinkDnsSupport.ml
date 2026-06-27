@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcClassicLinkDnsSupportRequest.t
 type output = DescribeVpcClassicLinkDnsSupportResult.t

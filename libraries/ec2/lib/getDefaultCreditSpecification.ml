@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetDefaultCreditSpecificationRequest.t
 type output = GetDefaultCreditSpecificationResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeServiceLinkVirtualInterfacesRequest.t
 type output = DescribeServiceLinkVirtualInterfacesResult.t
 type error = Errors_internal.t

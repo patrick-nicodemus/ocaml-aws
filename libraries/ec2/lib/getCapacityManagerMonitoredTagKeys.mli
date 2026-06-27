@@ -1,4 +1,3 @@
-open Types
 type input = GetCapacityManagerMonitoredTagKeysRequest.t
 type output = GetCapacityManagerMonitoredTagKeysResult.t
 type error = Errors_internal.t

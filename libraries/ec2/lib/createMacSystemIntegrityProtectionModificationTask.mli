@@ -1,4 +1,3 @@
-open Types
 type input = CreateMacSystemIntegrityProtectionModificationTaskRequest.t
 type output = CreateMacSystemIntegrityProtectionModificationTaskResult.t
 type error = Errors_internal.t

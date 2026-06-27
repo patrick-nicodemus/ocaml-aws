@@ -1,4 +1,3 @@
-open Types
 type input = ReplaceImageCriteriaInAllowedImagesSettingsRequest.t
 type output = ReplaceImageCriteriaInAllowedImagesSettingsResult.t
 type error = Errors_internal.t

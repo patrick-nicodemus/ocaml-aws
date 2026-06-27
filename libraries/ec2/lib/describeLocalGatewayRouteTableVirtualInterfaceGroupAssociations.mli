@@ -1,4 +1,3 @@
-open Types
 type input =
   DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest.t
 type output =

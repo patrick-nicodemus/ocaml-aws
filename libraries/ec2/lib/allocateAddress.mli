@@ -1,4 +1,3 @@
-open Types
 type input = AllocateAddressRequest.t
 type output = AllocateAddressResult.t
 type error = Errors_internal.t

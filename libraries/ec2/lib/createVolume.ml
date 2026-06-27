@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateVolumeRequest.t
 type output = Volume.t

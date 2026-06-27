@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeIamInstanceProfileAssociationsRequest.t
 type output = DescribeIamInstanceProfileAssociationsResult.t

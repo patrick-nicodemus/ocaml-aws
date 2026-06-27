@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVpcRequest.t
 type output = unit
 type error = Errors_internal.t

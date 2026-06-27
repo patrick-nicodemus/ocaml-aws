@@ -1,4 +1,3 @@
-open Types
 type input = CreateSecondaryNetworkRequest.t
 type output = CreateSecondaryNetworkResult.t
 type error = Errors_internal.t

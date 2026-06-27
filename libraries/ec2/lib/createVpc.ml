@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateVpcRequest.t
 type output = CreateVpcResult.t

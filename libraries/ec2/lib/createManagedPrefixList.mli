@@ -1,4 +1,3 @@
-open Types
 type input = CreateManagedPrefixListRequest.t
 type output = CreateManagedPrefixListResult.t
 type error = Errors_internal.t

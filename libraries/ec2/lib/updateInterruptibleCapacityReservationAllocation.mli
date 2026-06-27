@@ -1,4 +1,3 @@
-open Types
 type input = UpdateInterruptibleCapacityReservationAllocationRequest.t
 type output = UpdateInterruptibleCapacityReservationAllocationResult.t
 type error = Errors_internal.t

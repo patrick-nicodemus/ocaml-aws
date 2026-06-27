@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeSpotPriceHistoryRequest.t
 type output = DescribeSpotPriceHistoryResult.t

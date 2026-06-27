@@ -1,4 +1,3 @@
-open Types
 type input = DisableFastLaunchRequest.t
 type output = DisableFastLaunchResult.t
 type error = Errors_internal.t

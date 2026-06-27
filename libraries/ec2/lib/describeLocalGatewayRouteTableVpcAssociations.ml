@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeLocalGatewayRouteTableVpcAssociationsRequest.t
 type output = DescribeLocalGatewayRouteTableVpcAssociationsResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSnapshotRequest.t
 type output = unit

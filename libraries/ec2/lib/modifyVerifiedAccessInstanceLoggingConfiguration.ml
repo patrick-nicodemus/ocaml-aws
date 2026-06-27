@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVerifiedAccessInstanceLoggingConfigurationRequest.t
 type output = ModifyVerifiedAccessInstanceLoggingConfigurationResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeregisterImageRequest.t
 type output = DeregisterImageResult.t

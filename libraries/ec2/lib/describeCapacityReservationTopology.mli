@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCapacityReservationTopologyRequest.t
 type output = DescribeCapacityReservationTopologyResult.t
 type error = Errors_internal.t

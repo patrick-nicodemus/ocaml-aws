@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AssignPrivateIpAddressesRequest.t
 type output = AssignPrivateIpAddressesResult.t

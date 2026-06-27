@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReleaseIpamPoolAllocationRequest.t
 type output = ReleaseIpamPoolAllocationResult.t

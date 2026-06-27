@@ -1,4 +1,3 @@
-open Types
 type input = DescribeVpcEndpointsRequest.t
 type output = DescribeVpcEndpointsResult.t
 type error = Errors_internal.t

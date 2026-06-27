@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceEventWindowRequest.t
 type output = ModifyInstanceEventWindowResult.t
 type error = Errors_internal.t

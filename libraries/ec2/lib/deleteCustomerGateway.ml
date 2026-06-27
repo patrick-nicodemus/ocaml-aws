@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteCustomerGatewayRequest.t
 type output = unit

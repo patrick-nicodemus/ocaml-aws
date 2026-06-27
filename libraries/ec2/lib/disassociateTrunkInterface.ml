@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateTrunkInterfaceRequest.t
 type output = DisassociateTrunkInterfaceResult.t

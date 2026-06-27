@@ -1,4 +1,3 @@
-open Types
 type input = DeregisterTransitGatewayMulticastGroupSourcesRequest.t
 type output = DeregisterTransitGatewayMulticastGroupSourcesResult.t
 type error = Errors_internal.t

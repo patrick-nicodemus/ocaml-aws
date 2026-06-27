@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableRouteServerPropagationRequest.t
 type output = EnableRouteServerPropagationResult.t

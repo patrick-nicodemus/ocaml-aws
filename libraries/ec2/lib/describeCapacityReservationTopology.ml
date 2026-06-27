@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCapacityReservationTopologyRequest.t
 type output = DescribeCapacityReservationTopologyResult.t

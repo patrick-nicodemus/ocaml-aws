@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetInstanceUefiDataRequest.t
 type output = GetInstanceUefiDataResult.t

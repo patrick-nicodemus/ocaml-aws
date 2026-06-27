@@ -1,4 +1,3 @@
-open Types
 type input = DescribeFastLaunchImagesRequest.t
 type output = DescribeFastLaunchImagesResult.t
 type error = Errors_internal.t

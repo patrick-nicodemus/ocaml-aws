@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSnapshotTierStatusRequest.t
 type output = DescribeSnapshotTierStatusResult.t
 type error = Errors_internal.t

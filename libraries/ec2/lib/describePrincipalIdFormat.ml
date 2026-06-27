@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribePrincipalIdFormatRequest.t
 type output = DescribePrincipalIdFormatResult.t

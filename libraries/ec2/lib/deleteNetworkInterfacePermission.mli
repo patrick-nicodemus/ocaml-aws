@@ -1,4 +1,3 @@
-open Types
 type input = DeleteNetworkInterfacePermissionRequest.t
 type output = DeleteNetworkInterfacePermissionResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = AttachImageWatermarkRequest.t
 type output = AttachImageWatermarkResult.t
 type error = Errors_internal.t

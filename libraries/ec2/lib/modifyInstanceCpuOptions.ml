@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceCpuOptionsRequest.t
 type output = ModifyInstanceCpuOptionsResult.t

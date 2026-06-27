@@ -1,4 +1,3 @@
-open Types
 type input = DescribeTrafficMirrorFilterRulesRequest.t
 type output = DescribeTrafficMirrorFilterRulesResult.t
 type error = Errors_internal.t

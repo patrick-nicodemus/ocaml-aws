@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeByoipCidrsRequest.t
 type output = DescribeByoipCidrsResult.t

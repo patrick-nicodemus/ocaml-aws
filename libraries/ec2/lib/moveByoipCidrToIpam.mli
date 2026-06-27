@@ -1,4 +1,3 @@
-open Types
 type input = MoveByoipCidrToIpamRequest.t
 type output = MoveByoipCidrToIpamResult.t
 type error = Errors_internal.t

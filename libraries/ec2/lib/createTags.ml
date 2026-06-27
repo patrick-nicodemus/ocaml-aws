@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateTagsRequest.t
 type output = unit

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeScheduledInstanceAvailabilityRequest.t
 type output = DescribeScheduledInstanceAvailabilityResult.t

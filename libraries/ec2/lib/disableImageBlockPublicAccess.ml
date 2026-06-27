@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableImageBlockPublicAccessRequest.t
 type output = DisableImageBlockPublicAccessResult.t

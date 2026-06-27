@@ -1,4 +1,3 @@
-open Types
 type input = TerminateClientVpnConnectionsRequest.t
 type output = TerminateClientVpnConnectionsResult.t
 type error = Errors_internal.t

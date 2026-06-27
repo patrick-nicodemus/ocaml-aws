@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetAwsNetworkPerformanceDataRequest.t
 type output = GetAwsNetworkPerformanceDataResult.t

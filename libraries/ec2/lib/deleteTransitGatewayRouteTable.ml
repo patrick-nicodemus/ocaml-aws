@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTransitGatewayRouteTableRequest.t
 type output = DeleteTransitGatewayRouteTableResult.t

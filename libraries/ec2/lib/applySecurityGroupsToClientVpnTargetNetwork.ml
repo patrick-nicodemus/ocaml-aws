@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ApplySecurityGroupsToClientVpnTargetNetworkRequest.t
 type output = ApplySecurityGroupsToClientVpnTargetNetworkResult.t

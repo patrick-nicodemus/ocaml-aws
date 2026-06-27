@@ -1,4 +1,3 @@
-open Types
 type input = DescribeVerifiedAccessInstanceLoggingConfigurationsRequest.t
 type output = DescribeVerifiedAccessInstanceLoggingConfigurationsResult.t
 type error = Errors_internal.t

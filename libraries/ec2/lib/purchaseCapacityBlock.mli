@@ -1,4 +1,3 @@
-open Types
 type input = PurchaseCapacityBlockRequest.t
 type output = PurchaseCapacityBlockResult.t
 type error = Errors_internal.t

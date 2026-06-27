@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = UnassignPrivateNatGatewayAddressRequest.t
 type output = UnassignPrivateNatGatewayAddressResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteSecondarySubnetRequest.t
 type output = DeleteSecondarySubnetResult.t
 type error = Errors_internal.t

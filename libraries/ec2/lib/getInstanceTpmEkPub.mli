@@ -1,4 +1,3 @@
-open Types
 type input = GetInstanceTpmEkPubRequest.t
 type output = GetInstanceTpmEkPubResult.t
 type error = Errors_internal.t

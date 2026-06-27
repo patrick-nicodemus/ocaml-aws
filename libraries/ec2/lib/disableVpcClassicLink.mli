@@ -1,4 +1,3 @@
-open Types
 type input = DisableVpcClassicLinkRequest.t
 type output = DisableVpcClassicLinkResult.t
 type error = Errors_internal.t

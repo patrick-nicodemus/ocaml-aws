@@ -1,4 +1,3 @@
-open Types
 type input = GetIpamAddressHistoryRequest.t
 type output = GetIpamAddressHistoryResult.t
 type error = Errors_internal.t

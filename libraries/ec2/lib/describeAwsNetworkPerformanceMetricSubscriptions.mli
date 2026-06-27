@@ -1,4 +1,3 @@
-open Types
 type input = DescribeAwsNetworkPerformanceMetricSubscriptionsRequest.t
 type output = DescribeAwsNetworkPerformanceMetricSubscriptionsResult.t
 type error = Errors_internal.t

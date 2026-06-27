@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetInstanceTypesFromInstanceRequirementsRequest.t
 type output = GetInstanceTypesFromInstanceRequirementsResult.t

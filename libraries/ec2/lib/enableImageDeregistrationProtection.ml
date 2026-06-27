@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableImageDeregistrationProtectionRequest.t
 type output = EnableImageDeregistrationProtectionResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = GetVpnConnectionDeviceSampleConfigurationRequest.t
 type output = GetVpnConnectionDeviceSampleConfigurationResult.t
 type error = Errors_internal.t

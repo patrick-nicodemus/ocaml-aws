@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceMetadataDefaultsRequest.t
 type output = ModifyInstanceMetadataDefaultsResult.t
 type error = Errors_internal.t

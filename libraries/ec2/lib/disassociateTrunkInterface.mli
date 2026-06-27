@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateTrunkInterfaceRequest.t
 type output = DisassociateTrunkInterfaceResult.t
 type error = Errors_internal.t

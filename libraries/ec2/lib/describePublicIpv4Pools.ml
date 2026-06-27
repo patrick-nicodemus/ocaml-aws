@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribePublicIpv4PoolsRequest.t
 type output = DescribePublicIpv4PoolsResult.t

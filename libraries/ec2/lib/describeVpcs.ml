@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcsRequest.t
 type output = DescribeVpcsResult.t

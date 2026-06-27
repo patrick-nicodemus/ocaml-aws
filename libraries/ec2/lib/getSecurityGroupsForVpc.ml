@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetSecurityGroupsForVpcRequest.t
 type output = GetSecurityGroupsForVpcResult.t

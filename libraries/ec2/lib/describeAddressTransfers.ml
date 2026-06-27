@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeAddressTransfersRequest.t
 type output = DescribeAddressTransfersResult.t

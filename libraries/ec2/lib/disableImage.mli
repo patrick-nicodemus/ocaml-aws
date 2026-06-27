@@ -1,4 +1,3 @@
-open Types
 type input = DisableImageRequest.t
 type output = DisableImageResult.t
 type error = Errors_internal.t

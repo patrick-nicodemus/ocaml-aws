@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateNatGatewayAddressRequest.t
 type output = DisassociateNatGatewayAddressResult.t
 type error = Errors_internal.t

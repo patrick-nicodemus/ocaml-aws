@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteIpamPrefixListResolverRequest.t
 type output = DeleteIpamPrefixListResolverResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteRouteServerEndpointRequest.t
 type output = DeleteRouteServerEndpointResult.t
 type error = Errors_internal.t

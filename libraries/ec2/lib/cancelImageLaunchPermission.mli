@@ -1,4 +1,3 @@
-open Types
 type input = CancelImageLaunchPermissionRequest.t
 type output = CancelImageLaunchPermissionResult.t
 type error = Errors_internal.t

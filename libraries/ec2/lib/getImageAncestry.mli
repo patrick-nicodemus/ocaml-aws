@@ -1,4 +1,3 @@
-open Types
 type input = GetImageAncestryRequest.t
 type output = GetImageAncestryResult.t
 type error = Errors_internal.t

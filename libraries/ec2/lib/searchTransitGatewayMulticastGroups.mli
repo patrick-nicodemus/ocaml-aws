@@ -1,4 +1,3 @@
-open Types
 type input = SearchTransitGatewayMulticastGroupsRequest.t
 type output = SearchTransitGatewayMulticastGroupsResult.t
 type error = Errors_internal.t

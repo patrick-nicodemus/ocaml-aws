@@ -1,4 +1,3 @@
-open Types
 type input = ModifyHostsRequest.t
 type output = ModifyHostsResult.t
 type error = Errors_internal.t

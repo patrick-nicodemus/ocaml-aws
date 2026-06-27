@@ -1,4 +1,3 @@
-open Types
 type input = CopyVolumesRequest.t
 type output = CopyVolumesResult.t
 type error = Errors_internal.t

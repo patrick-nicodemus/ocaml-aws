@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = SendDiagnosticInterruptRequest.t
 type output = unit

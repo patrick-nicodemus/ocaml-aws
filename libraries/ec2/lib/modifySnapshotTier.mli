@@ -1,4 +1,3 @@
-open Types
 type input = ModifySnapshotTierRequest.t
 type output = ModifySnapshotTierResult.t
 type error = Errors_internal.t

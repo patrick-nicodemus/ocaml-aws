@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateSubnetCidrBlockRequest.t
 type output = DisassociateSubnetCidrBlockResult.t
 type error = Errors_internal.t

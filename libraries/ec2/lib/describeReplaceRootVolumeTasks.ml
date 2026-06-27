@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeReplaceRootVolumeTasksRequest.t
 type output = DescribeReplaceRootVolumeTasksResult.t

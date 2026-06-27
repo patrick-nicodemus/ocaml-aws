@@ -1,4 +1,3 @@
-open Types
 type input = RestoreVolumeFromRecycleBinRequest.t
 type output = RestoreVolumeFromRecycleBinResult.t
 type error = Errors_internal.t

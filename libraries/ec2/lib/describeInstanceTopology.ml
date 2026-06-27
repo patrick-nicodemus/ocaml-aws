@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceTopologyRequest.t
 type output = DescribeInstanceTopologyResult.t

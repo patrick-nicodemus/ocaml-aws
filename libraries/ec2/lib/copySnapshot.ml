@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CopySnapshotRequest.t
 type output = CopySnapshotResult.t

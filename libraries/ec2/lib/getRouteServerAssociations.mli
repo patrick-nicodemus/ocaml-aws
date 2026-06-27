@@ -1,4 +1,3 @@
-open Types
 type input = GetRouteServerAssociationsRequest.t
 type output = GetRouteServerAssociationsResult.t
 type error = Errors_internal.t

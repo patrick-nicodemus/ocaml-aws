@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateCapacityReservationBillingOwnerRequest.t
 type output = DisassociateCapacityReservationBillingOwnerResult.t

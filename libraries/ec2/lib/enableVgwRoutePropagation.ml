@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableVgwRoutePropagationRequest.t
 type output = unit

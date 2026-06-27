@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateEnclaveCertificateIamRoleRequest.t
 type output = DisassociateEnclaveCertificateIamRoleResult.t

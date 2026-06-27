@@ -1,4 +1,3 @@
-open Types
 type input = AuthorizeSecurityGroupEgressRequest.t
 type output = AuthorizeSecurityGroupEgressResult.t
 type error = Errors_internal.t

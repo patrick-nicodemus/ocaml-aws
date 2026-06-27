@@ -1,4 +1,3 @@
-open Types
 type input = DescribeKeyPairsRequest.t
 type output = DescribeKeyPairsResult.t
 type error = Errors_internal.t

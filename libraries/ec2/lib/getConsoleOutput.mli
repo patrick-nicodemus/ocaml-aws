@@ -1,4 +1,3 @@
-open Types
 type input = GetConsoleOutputRequest.t
 type output = GetConsoleOutputResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeSecondaryInterfacesRequest.t
 type output = DescribeSecondaryInterfacesResult.t

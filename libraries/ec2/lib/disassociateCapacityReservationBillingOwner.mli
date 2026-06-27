@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateCapacityReservationBillingOwnerRequest.t
 type output = DisassociateCapacityReservationBillingOwnerResult.t
 type error = Errors_internal.t

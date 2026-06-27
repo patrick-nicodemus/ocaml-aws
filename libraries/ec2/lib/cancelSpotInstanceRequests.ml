@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CancelSpotInstanceRequestsRequest.t
 type output = CancelSpotInstanceRequestsResult.t

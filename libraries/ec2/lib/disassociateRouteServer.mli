@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateRouteServerRequest.t
 type output = DisassociateRouteServerResult.t
 type error = Errors_internal.t

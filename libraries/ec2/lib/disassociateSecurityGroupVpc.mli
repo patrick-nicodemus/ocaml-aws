@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateSecurityGroupVpcRequest.t
 type output = DisassociateSecurityGroupVpcResult.t
 type error = Errors_internal.t

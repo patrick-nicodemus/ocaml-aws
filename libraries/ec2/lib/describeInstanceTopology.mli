@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceTopologyRequest.t
 type output = DescribeInstanceTopologyResult.t
 type error = Errors_internal.t

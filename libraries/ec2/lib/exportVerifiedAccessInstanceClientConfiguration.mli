@@ -1,4 +1,3 @@
-open Types
 type input = ExportVerifiedAccessInstanceClientConfigurationRequest.t
 type output = ExportVerifiedAccessInstanceClientConfigurationResult.t
 type error = Errors_internal.t

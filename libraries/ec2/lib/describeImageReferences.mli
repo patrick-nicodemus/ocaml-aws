@@ -1,4 +1,3 @@
-open Types
 type input = DescribeImageReferencesRequest.t
 type output = DescribeImageReferencesResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DisableIpamOrganizationAdminAccountRequest.t
 type output = DisableIpamOrganizationAdminAccountResult.t
 type error = Errors_internal.t

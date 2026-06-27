@@ -1,4 +1,3 @@
-open Types
 type input = DeleteRouteServerPeerRequest.t
 type output = DeleteRouteServerPeerResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteKeyPairRequest.t
 type output = DeleteKeyPairResult.t

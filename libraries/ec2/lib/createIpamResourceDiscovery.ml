@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateIpamResourceDiscoveryRequest.t
 type output = CreateIpamResourceDiscoveryResult.t

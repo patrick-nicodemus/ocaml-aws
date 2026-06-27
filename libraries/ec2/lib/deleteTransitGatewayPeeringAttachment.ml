@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTransitGatewayPeeringAttachmentRequest.t
 type output = DeleteTransitGatewayPeeringAttachmentResult.t

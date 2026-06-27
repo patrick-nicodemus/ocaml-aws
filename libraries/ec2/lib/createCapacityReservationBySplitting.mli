@@ -1,4 +1,3 @@
-open Types
 type input = CreateCapacityReservationBySplittingRequest.t
 type output = CreateCapacityReservationBySplittingResult.t
 type error = Errors_internal.t

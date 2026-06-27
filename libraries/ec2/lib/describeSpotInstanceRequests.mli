@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSpotInstanceRequestsRequest.t
 type output = DescribeSpotInstanceRequestsResult.t
 type error = Errors_internal.t

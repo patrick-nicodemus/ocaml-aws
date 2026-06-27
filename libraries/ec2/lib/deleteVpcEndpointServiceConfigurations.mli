@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVpcEndpointServiceConfigurationsRequest.t
 type output = DeleteVpcEndpointServiceConfigurationsResult.t
 type error = Errors_internal.t

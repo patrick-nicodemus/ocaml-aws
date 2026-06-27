@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeRegionsRequest.t
 type output = DescribeRegionsResult.t

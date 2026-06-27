@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceEventStartTimeRequest.t
 type output = ModifyInstanceEventStartTimeResult.t

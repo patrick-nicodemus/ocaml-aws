@@ -1,4 +1,3 @@
-open Types
 type input = DescribeFpgaImagesRequest.t
 type output = DescribeFpgaImagesResult.t
 type error = Errors_internal.t

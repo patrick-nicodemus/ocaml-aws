@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTrafficMirrorFilterRuleRequest.t
 type output = DeleteTrafficMirrorFilterRuleResult.t

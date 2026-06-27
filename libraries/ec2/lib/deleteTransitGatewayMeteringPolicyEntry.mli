@@ -1,4 +1,3 @@
-open Types
 type input = DeleteTransitGatewayMeteringPolicyEntryRequest.t
 type output = DeleteTransitGatewayMeteringPolicyEntryResult.t
 type error = Errors_internal.t

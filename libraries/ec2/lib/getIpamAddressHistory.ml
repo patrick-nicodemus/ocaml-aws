@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamAddressHistoryRequest.t
 type output = GetIpamAddressHistoryResult.t

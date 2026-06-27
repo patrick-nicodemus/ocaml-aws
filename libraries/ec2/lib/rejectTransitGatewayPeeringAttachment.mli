@@ -1,4 +1,3 @@
-open Types
 type input = RejectTransitGatewayPeeringAttachmentRequest.t
 type output = RejectTransitGatewayPeeringAttachmentResult.t
 type error = Errors_internal.t

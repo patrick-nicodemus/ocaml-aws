@@ -1,4 +1,3 @@
-open Types
 type input = CreateVerifiedAccessTrustProviderRequest.t
 type output = CreateVerifiedAccessTrustProviderResult.t
 type error = Errors_internal.t

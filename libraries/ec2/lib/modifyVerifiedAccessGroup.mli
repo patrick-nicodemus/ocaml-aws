@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVerifiedAccessGroupRequest.t
 type output = ModifyVerifiedAccessGroupResult.t
 type error = Errors_internal.t

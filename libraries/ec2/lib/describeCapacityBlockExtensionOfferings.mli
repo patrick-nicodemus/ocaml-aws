@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCapacityBlockExtensionOfferingsRequest.t
 type output = DescribeCapacityBlockExtensionOfferingsResult.t
 type error = Errors_internal.t

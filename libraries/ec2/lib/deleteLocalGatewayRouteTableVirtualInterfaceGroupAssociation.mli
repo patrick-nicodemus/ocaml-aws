@@ -1,4 +1,3 @@
-open Types
 type input =
   DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociationRequest.t
 type output =

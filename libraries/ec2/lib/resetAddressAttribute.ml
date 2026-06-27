@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ResetAddressAttributeRequest.t
 type output = ResetAddressAttributeResult.t

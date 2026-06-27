@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifySpotFleetRequestRequest.t
 type output = ModifySpotFleetRequestResponse.t

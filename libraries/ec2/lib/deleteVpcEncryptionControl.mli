@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVpcEncryptionControlRequest.t
 type output = DeleteVpcEncryptionControlResult.t
 type error = Errors_internal.t

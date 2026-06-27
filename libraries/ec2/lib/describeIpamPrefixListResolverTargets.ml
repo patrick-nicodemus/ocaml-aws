@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeIpamPrefixListResolverTargetsRequest.t
 type output = DescribeIpamPrefixListResolverTargetsResult.t

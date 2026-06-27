@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceTypesRequest.t
 type output = DescribeInstanceTypesResult.t

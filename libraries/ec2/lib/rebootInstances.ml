@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RebootInstancesRequest.t
 type output = unit

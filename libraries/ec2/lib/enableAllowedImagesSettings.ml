@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableAllowedImagesSettingsRequest.t
 type output = EnableAllowedImagesSettingsResult.t

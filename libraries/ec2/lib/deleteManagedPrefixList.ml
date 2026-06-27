@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteManagedPrefixListRequest.t
 type output = DeleteManagedPrefixListResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DisableSerialConsoleAccessRequest.t
 type output = DisableSerialConsoleAccessResult.t
 type error = Errors_internal.t

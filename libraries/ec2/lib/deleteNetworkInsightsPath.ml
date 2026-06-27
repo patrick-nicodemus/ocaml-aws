@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteNetworkInsightsPathRequest.t
 type output = DeleteNetworkInsightsPathResult.t

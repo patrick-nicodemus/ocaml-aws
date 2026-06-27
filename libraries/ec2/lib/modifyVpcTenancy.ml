@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpcTenancyRequest.t
 type output = ModifyVpcTenancyResult.t

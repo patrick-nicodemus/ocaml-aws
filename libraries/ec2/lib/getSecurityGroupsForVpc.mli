@@ -1,4 +1,3 @@
-open Types
 type input = GetSecurityGroupsForVpcRequest.t
 type output = GetSecurityGroupsForVpcResult.t
 type error = Errors_internal.t

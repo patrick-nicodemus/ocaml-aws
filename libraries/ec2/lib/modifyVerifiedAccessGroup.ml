@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVerifiedAccessGroupRequest.t
 type output = ModifyVerifiedAccessGroupResult.t

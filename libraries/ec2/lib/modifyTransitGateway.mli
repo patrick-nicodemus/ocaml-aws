@@ -1,4 +1,3 @@
-open Types
 type input = ModifyTransitGatewayRequest.t
 type output = ModifyTransitGatewayResult.t
 type error = Errors_internal.t

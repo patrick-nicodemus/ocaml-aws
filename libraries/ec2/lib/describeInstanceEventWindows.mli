@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceEventWindowsRequest.t
 type output = DescribeInstanceEventWindowsResult.t
 type error = Errors_internal.t

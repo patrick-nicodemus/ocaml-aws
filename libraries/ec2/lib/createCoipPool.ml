@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateCoipPoolRequest.t
 type output = CreateCoipPoolResult.t

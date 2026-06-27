@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RegisterImageRequest.t
 type output = RegisterImageResult.t

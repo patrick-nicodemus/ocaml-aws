@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceConnectEndpointRequest.t
 type output = ModifyInstanceConnectEndpointResult.t

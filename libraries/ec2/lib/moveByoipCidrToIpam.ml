@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = MoveByoipCidrToIpamRequest.t
 type output = MoveByoipCidrToIpamResult.t

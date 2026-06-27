@@ -1,4 +1,3 @@
-open Types
 type input = DeregisterImageRequest.t
 type output = DeregisterImageResult.t
 type error = Errors_internal.t

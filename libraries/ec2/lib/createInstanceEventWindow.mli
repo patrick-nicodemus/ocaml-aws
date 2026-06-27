@@ -1,4 +1,3 @@
-open Types
 type input = CreateInstanceEventWindowRequest.t
 type output = CreateInstanceEventWindowResult.t
 type error = Errors_internal.t

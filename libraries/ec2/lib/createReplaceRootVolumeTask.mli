@@ -1,4 +1,3 @@
-open Types
 type input = CreateReplaceRootVolumeTaskRequest.t
 type output = CreateReplaceRootVolumeTaskResult.t
 type error = Errors_internal.t

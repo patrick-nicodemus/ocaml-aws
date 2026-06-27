@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = TerminateClientVpnConnectionsRequest.t
 type output = TerminateClientVpnConnectionsResult.t

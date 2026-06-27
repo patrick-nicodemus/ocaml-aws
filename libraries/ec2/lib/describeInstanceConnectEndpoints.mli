@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceConnectEndpointsRequest.t
 type output = DescribeInstanceConnectEndpointsResult.t
 type error = Errors_internal.t

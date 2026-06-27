@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCarrierGatewaysRequest.t
 type output = DescribeCarrierGatewaysResult.t
 type error = Errors_internal.t

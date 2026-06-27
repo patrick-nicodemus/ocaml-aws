@@ -1,4 +1,3 @@
-open Types
 type input = CancelSpotFleetRequestsRequest.t
 type output = CancelSpotFleetRequestsResponse.t
 type error = Errors_internal.t

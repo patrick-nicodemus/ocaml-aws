@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetSpotPlacementScoresRequest.t
 type output = GetSpotPlacementScoresResult.t

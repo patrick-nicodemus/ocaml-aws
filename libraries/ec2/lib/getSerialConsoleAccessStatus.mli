@@ -1,4 +1,3 @@
-open Types
 type input = GetSerialConsoleAccessStatusRequest.t
 type output = GetSerialConsoleAccessStatusResult.t
 type error = Errors_internal.t

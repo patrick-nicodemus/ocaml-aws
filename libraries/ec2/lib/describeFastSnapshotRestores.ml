@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeFastSnapshotRestoresRequest.t
 type output = DescribeFastSnapshotRestoresResult.t

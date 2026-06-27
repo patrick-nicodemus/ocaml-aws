@@ -1,4 +1,3 @@
-open Types
 type input = MoveCapacityReservationInstancesRequest.t
 type output = MoveCapacityReservationInstancesResult.t
 type error = Errors_internal.t

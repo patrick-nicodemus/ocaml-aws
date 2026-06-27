@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RevokeSecurityGroupEgressRequest.t
 type output = RevokeSecurityGroupEgressResult.t

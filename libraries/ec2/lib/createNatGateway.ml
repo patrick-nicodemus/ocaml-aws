@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateNatGatewayRequest.t
 type output = CreateNatGatewayResult.t

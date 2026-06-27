@@ -1,4 +1,3 @@
-open Types
 type input = CreateTransitGatewayConnectRequest.t
 type output = CreateTransitGatewayConnectResult.t
 type error = Errors_internal.t

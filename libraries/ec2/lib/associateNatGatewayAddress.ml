@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AssociateNatGatewayAddressRequest.t
 type output = AssociateNatGatewayAddressResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamDiscoveredResourceCidrsRequest.t
 type output = GetIpamDiscoveredResourceCidrsResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateTrafficMirrorTargetRequest.t
 type output = CreateTrafficMirrorTargetResult.t

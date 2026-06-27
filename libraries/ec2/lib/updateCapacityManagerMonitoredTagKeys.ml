@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = UpdateCapacityManagerMonitoredTagKeysRequest.t
 type output = UpdateCapacityManagerMonitoredTagKeysResult.t

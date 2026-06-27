@@ -1,4 +1,3 @@
-open Types
 type input = GetSnapshotBlockPublicAccessStateRequest.t
 type output = GetSnapshotBlockPublicAccessStateResult.t
 type error = Errors_internal.t

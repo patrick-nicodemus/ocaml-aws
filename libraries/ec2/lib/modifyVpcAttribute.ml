@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpcAttributeRequest.t
 type output = unit

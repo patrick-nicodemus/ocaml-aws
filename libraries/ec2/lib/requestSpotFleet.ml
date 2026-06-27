@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RequestSpotFleetRequest.t
 type output = RequestSpotFleetResponse.t

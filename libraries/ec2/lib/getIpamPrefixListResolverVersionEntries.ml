@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamPrefixListResolverVersionEntriesRequest.t
 type output = GetIpamPrefixListResolverVersionEntriesResult.t

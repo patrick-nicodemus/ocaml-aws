@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetVerifiedAccessEndpointTargetsRequest.t
 type output = GetVerifiedAccessEndpointTargetsResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = GetDeclarativePoliciesReportSummaryRequest.t
 type output = GetDeclarativePoliciesReportSummaryResult.t
 type error = Errors_internal.t

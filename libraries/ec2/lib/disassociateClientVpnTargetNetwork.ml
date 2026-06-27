@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisassociateClientVpnTargetNetworkRequest.t
 type output = DisassociateClientVpnTargetNetworkResult.t

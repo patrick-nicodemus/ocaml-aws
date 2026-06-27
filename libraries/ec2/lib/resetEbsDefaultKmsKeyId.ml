@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ResetEbsDefaultKmsKeyIdRequest.t
 type output = ResetEbsDefaultKmsKeyIdResult.t

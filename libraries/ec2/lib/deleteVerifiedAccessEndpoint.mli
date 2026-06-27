@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVerifiedAccessEndpointRequest.t
 type output = DeleteVerifiedAccessEndpointResult.t
 type error = Errors_internal.t

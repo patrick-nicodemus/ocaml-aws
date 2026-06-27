@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RejectVpcPeeringConnectionRequest.t
 type output = RejectVpcPeeringConnectionResult.t

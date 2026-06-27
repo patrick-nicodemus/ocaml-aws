@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RunInstancesRequest.t
 type output = Reservation.t

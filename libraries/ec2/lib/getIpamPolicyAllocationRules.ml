@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamPolicyAllocationRulesRequest.t
 type output = GetIpamPolicyAllocationRulesResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteKeyPairRequest.t
 type output = DeleteKeyPairResult.t
 type error = Errors_internal.t

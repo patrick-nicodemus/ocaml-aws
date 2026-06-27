@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RunScheduledInstancesRequest.t
 type output = RunScheduledInstancesResult.t

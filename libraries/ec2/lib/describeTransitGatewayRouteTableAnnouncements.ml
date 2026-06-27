@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeTransitGatewayRouteTableAnnouncementsRequest.t
 type output = DescribeTransitGatewayRouteTableAnnouncementsResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = PurchaseCapacityBlockExtensionRequest.t
 type output = PurchaseCapacityBlockExtensionResult.t

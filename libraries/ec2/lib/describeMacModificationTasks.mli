@@ -1,4 +1,3 @@
-open Types
 type input = DescribeMacModificationTasksRequest.t
 type output = DescribeMacModificationTasksResult.t
 type error = Errors_internal.t

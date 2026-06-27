@@ -1,4 +1,3 @@
-open Types
 type input = GetRouteServerRoutingDatabaseRequest.t
 type output = GetRouteServerRoutingDatabaseResult.t
 type error = Errors_internal.t

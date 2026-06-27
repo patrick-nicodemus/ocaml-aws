@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVpcPeeringConnectionOptionsRequest.t
 type output = ModifyVpcPeeringConnectionOptionsResult.t
 type error = Errors_internal.t

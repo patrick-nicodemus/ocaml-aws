@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeTransitGatewayVpcAttachmentsRequest.t
 type output = DescribeTransitGatewayVpcAttachmentsResult.t

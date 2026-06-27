@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableFastLaunchRequest.t
 type output = EnableFastLaunchResult.t

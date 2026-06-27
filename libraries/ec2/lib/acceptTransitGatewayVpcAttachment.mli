@@ -1,4 +1,3 @@
-open Types
 type input = AcceptTransitGatewayVpcAttachmentRequest.t
 type output = AcceptTransitGatewayVpcAttachmentResult.t
 type error = Errors_internal.t

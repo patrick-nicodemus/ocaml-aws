@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = BundleInstanceRequest.t
 type output = BundleInstanceResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = CreateReservedInstancesListingRequest.t
 type output = CreateReservedInstancesListingResult.t
 type error = Errors_internal.t

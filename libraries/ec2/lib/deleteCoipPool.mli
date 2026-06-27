@@ -1,4 +1,3 @@
-open Types
 type input = DeleteCoipPoolRequest.t
 type output = DeleteCoipPoolResult.t
 type error = Errors_internal.t

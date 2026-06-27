@@ -1,4 +1,3 @@
-open Types
 type input = DisableVgwRoutePropagationRequest.t
 type output = unit
 type error = Errors_internal.t

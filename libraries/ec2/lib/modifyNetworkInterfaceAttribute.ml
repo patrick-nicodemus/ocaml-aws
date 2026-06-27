@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyNetworkInterfaceAttributeRequest.t
 type output = unit

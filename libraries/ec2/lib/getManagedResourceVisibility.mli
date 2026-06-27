@@ -1,4 +1,3 @@
-open Types
 type input = GetManagedResourceVisibilityRequest.t
 type output = GetManagedResourceVisibilityResult.t
 type error = Errors_internal.t

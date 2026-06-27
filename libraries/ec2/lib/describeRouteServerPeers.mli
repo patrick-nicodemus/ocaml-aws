@@ -1,4 +1,3 @@
-open Types
 type input = DescribeRouteServerPeersRequest.t
 type output = DescribeRouteServerPeersResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteFpgaImageRequest.t
 type output = DeleteFpgaImageResult.t

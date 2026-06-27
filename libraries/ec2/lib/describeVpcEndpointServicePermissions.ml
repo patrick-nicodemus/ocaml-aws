@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVpcEndpointServicePermissionsRequest.t
 type output = DescribeVpcEndpointServicePermissionsResult.t

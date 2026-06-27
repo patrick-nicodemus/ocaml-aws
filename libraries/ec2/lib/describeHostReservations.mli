@@ -1,4 +1,3 @@
-open Types
 type input = DescribeHostReservationsRequest.t
 type output = DescribeHostReservationsResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteIpamExternalResourceVerificationTokenRequest.t
 type output = DeleteIpamExternalResourceVerificationTokenResult.t
 type error = Errors_internal.t

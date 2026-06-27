@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetVpcResourcesBlockingEncryptionEnforcementRequest.t
 type output = GetVpcResourcesBlockingEncryptionEnforcementResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateTransitGatewayPeeringAttachmentRequest.t
 type output = CreateTransitGatewayPeeringAttachmentResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableImageRequest.t
 type output = DisableImageResult.t

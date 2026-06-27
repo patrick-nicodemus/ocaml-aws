@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceEventWindowsRequest.t
 type output = DescribeInstanceEventWindowsResult.t

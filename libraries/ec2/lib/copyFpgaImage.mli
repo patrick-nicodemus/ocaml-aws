@@ -1,4 +1,3 @@
-open Types
 type input = CopyFpgaImageRequest.t
 type output = CopyFpgaImageResult.t
 type error = Errors_internal.t

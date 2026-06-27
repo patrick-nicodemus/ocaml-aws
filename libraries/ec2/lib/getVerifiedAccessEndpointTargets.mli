@@ -1,4 +1,3 @@
-open Types
 type input = GetVerifiedAccessEndpointTargetsRequest.t
 type output = GetVerifiedAccessEndpointTargetsResult.t
 type error = Errors_internal.t

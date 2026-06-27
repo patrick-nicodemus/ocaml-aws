@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AssociateRouteServerRequest.t
 type output = AssociateRouteServerResult.t

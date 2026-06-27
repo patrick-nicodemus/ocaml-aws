@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetConsoleOutputRequest.t
 type output = GetConsoleOutputResult.t

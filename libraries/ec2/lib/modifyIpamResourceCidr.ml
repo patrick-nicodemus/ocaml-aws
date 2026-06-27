@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyIpamResourceCidrRequest.t
 type output = ModifyIpamResourceCidrResult.t

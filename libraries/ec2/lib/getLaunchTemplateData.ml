@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetLaunchTemplateDataRequest.t
 type output = GetLaunchTemplateDataResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVpnConcentratorRequest.t
 type output = DeleteVpnConcentratorResult.t

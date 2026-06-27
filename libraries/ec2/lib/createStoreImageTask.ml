@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateStoreImageTaskRequest.t
 type output = CreateStoreImageTaskResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSubnetCidrReservationRequest.t
 type output = DeleteSubnetCidrReservationResult.t

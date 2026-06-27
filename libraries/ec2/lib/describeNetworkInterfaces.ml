@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeNetworkInterfacesRequest.t
 type output = DescribeNetworkInterfacesResult.t

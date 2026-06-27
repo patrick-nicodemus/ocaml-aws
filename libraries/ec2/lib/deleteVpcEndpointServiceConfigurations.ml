@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVpcEndpointServiceConfigurationsRequest.t
 type output = DeleteVpcEndpointServiceConfigurationsResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = SearchTransitGatewayMulticastGroupsRequest.t
 type output = SearchTransitGatewayMulticastGroupsResult.t

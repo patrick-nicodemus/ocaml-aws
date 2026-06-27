@@ -1,4 +1,3 @@
-open Types
 type input = DeprovisionPublicIpv4PoolCidrRequest.t
 type output = DeprovisionPublicIpv4PoolCidrResult.t
 type error = Errors_internal.t

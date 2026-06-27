@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AllocateIpamPoolCidrRequest.t
 type output = AllocateIpamPoolCidrResult.t

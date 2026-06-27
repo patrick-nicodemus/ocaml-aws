@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateInstanceEventWindowRequest.t
 type output = CreateInstanceEventWindowResult.t

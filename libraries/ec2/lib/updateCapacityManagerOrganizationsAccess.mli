@@ -1,4 +1,3 @@
-open Types
 type input = UpdateCapacityManagerOrganizationsAccessRequest.t
 type output = UpdateCapacityManagerOrganizationsAccessResult.t
 type error = Errors_internal.t

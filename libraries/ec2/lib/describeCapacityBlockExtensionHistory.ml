@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeCapacityBlockExtensionHistoryRequest.t
 type output = DescribeCapacityBlockExtensionHistoryResult.t

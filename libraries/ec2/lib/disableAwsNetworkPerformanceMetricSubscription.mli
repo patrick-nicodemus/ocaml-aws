@@ -1,4 +1,3 @@
-open Types
 type input = DisableAwsNetworkPerformanceMetricSubscriptionRequest.t
 type output = DisableAwsNetworkPerformanceMetricSubscriptionResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeletePublicIpv4PoolRequest.t
 type output = DeletePublicIpv4PoolResult.t
 type error = Errors_internal.t

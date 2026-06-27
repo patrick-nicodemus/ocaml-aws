@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = MoveAddressToVpcRequest.t
 type output = MoveAddressToVpcResult.t

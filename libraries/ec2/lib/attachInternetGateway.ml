@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AttachInternetGatewayRequest.t
 type output = unit

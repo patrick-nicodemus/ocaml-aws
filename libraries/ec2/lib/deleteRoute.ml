@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteRouteRequest.t
 type output = unit

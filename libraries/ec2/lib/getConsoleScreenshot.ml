@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetConsoleScreenshotRequest.t
 type output = GetConsoleScreenshotResult.t

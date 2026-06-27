@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateFleetRequest.t
 type output = CreateFleetResult.t

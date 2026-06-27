@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteNetworkInterfacePermissionRequest.t
 type output = DeleteNetworkInterfacePermissionResult.t

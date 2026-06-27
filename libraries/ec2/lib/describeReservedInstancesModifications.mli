@@ -1,4 +1,3 @@
-open Types
 type input = DescribeReservedInstancesModificationsRequest.t
 type output = DescribeReservedInstancesModificationsResult.t
 type error = Errors_internal.t

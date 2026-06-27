@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetPasswordDataRequest.t
 type output = GetPasswordDataResult.t

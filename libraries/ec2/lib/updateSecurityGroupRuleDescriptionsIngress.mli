@@ -1,4 +1,3 @@
-open Types
 type input = UpdateSecurityGroupRuleDescriptionsIngressRequest.t
 type output = UpdateSecurityGroupRuleDescriptionsIngressResult.t
 type error = Errors_internal.t

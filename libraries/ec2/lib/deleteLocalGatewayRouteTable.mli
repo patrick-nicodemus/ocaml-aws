@@ -1,4 +1,3 @@
-open Types
 type input = DeleteLocalGatewayRouteTableRequest.t
 type output = DeleteLocalGatewayRouteTableResult.t
 type error = Errors_internal.t

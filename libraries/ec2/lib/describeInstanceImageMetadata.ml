@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceImageMetadataRequest.t
 type output = DescribeInstanceImageMetadataResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyCapacityReservationRequest.t
 type output = ModifyCapacityReservationResult.t

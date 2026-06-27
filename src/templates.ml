@@ -73,6 +73,7 @@ let dune ~lib_name ~service_name =
  (public_name aws-%s)
  (synopsis "aws-%s")
  (flags (:standard -w -27))
+ (ocamlopt_flags (:standard -Oclassic))
  (libraries aws))
 |}
     lib_name

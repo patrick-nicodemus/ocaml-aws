@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = MonitorInstancesRequest.t
 type output = MonitorInstancesResult.t

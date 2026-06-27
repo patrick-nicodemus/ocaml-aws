@@ -1,4 +1,3 @@
-open Types
 type input = ModifyLocalGatewayRouteRequest.t
 type output = ModifyLocalGatewayRouteResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteFleetsRequest.t
 type output = DeleteFleetsResult.t

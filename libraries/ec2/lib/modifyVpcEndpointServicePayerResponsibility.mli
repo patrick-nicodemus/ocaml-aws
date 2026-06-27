@@ -1,4 +1,3 @@
-open Types
 type input = ModifyVpcEndpointServicePayerResponsibilityRequest.t
 type output = ModifyVpcEndpointServicePayerResponsibilityResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceNetworkPerformanceRequest.t
 type output = ModifyInstanceNetworkPerformanceResult.t

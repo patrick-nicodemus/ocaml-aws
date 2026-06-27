@@ -1,4 +1,3 @@
-open Types
 type input = StartNetworkInsightsAnalysisRequest.t
 type output = StartNetworkInsightsAnalysisResult.t
 type error = Errors_internal.t

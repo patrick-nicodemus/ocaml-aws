@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateNetworkInsightsAccessScopeRequest.t
 type output = CreateNetworkInsightsAccessScopeResult.t

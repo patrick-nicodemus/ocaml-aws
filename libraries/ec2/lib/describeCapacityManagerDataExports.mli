@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCapacityManagerDataExportsRequest.t
 type output = DescribeCapacityManagerDataExportsResult.t
 type error = Errors_internal.t

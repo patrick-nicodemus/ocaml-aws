@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReportInstanceStatusRequest.t
 type output = unit

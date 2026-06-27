@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeClientVpnRoutesRequest.t
 type output = DescribeClientVpnRoutesResult.t

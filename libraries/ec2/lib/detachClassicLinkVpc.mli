@@ -1,4 +1,3 @@
-open Types
 type input = DetachClassicLinkVpcRequest.t
 type output = DetachClassicLinkVpcResult.t
 type error = Errors_internal.t

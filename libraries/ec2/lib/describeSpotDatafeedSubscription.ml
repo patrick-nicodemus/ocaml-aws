@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeSpotDatafeedSubscriptionRequest.t
 type output = DescribeSpotDatafeedSubscriptionResult.t

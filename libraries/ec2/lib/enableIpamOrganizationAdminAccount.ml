@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableIpamOrganizationAdminAccountRequest.t
 type output = EnableIpamOrganizationAdminAccountResult.t

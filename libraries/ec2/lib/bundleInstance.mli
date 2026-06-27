@@ -1,4 +1,3 @@
-open Types
 type input = BundleInstanceRequest.t
 type output = BundleInstanceResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVpnConcentratorRequest.t
 type output = DeleteVpnConcentratorResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyAvailabilityZoneGroupRequest.t
 type output = ModifyAvailabilityZoneGroupResult.t

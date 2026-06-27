@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVolumeRequest.t
 type output = unit

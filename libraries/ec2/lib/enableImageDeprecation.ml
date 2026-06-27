@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = EnableImageDeprecationRequest.t
 type output = EnableImageDeprecationResult.t

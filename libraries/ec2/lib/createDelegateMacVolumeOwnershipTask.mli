@@ -1,4 +1,3 @@
-open Types
 type input = CreateDelegateMacVolumeOwnershipTaskRequest.t
 type output = CreateDelegateMacVolumeOwnershipTaskResult.t
 type error = Errors_internal.t

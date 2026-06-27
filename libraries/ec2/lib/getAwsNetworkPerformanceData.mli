@@ -1,4 +1,3 @@
-open Types
 type input = GetAwsNetworkPerformanceDataRequest.t
 type output = GetAwsNetworkPerformanceDataResult.t
 type error = Errors_internal.t

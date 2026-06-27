@@ -1,4 +1,3 @@
-open Types
 type input = GetIpamDiscoveredResourceCidrsRequest.t
 type output = GetIpamDiscoveredResourceCidrsResult.t
 type error = Errors_internal.t

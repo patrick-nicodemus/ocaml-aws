@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpnConnectionOptionsRequest.t
 type output = ModifyVpnConnectionOptionsResult.t

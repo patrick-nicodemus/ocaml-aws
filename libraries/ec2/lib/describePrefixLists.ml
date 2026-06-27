@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribePrefixListsRequest.t
 type output = DescribePrefixListsResult.t

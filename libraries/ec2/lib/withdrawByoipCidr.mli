@@ -1,4 +1,3 @@
-open Types
 type input = WithdrawByoipCidrRequest.t
 type output = WithdrawByoipCidrResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetIpamDiscoveredPublicAddressesRequest.t
 type output = GetIpamDiscoveredPublicAddressesResult.t

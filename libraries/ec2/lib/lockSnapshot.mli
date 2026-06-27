@@ -1,4 +1,3 @@
-open Types
 type input = LockSnapshotRequest.t
 type output = LockSnapshotResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeAddressTransfersRequest.t
 type output = DescribeAddressTransfersResult.t
 type error = Errors_internal.t

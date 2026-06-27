@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteDhcpOptionsRequest.t
 type output = unit

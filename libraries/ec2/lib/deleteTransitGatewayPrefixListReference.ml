@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTransitGatewayPrefixListReferenceRequest.t
 type output = DeleteTransitGatewayPrefixListReferenceResult.t

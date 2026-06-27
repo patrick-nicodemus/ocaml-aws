@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceSqlHaHistoryStatesRequest.t
 type output = DescribeInstanceSqlHaHistoryStatesResult.t
 type error = Errors_internal.t

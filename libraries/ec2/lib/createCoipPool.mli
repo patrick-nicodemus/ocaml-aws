@@ -1,4 +1,3 @@
-open Types
 type input = CreateCoipPoolRequest.t
 type output = CreateCoipPoolResult.t
 type error = Errors_internal.t

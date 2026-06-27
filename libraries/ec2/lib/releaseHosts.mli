@@ -1,4 +1,3 @@
-open Types
 type input = ReleaseHostsRequest.t
 type output = ReleaseHostsResult.t
 type error = Errors_internal.t

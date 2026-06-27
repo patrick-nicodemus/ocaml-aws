@@ -1,4 +1,3 @@
-open Types
 type input = DescribePrefixListsRequest.t
 type output = DescribePrefixListsResult.t
 type error = Errors_internal.t

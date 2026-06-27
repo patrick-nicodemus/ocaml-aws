@@ -1,4 +1,3 @@
-open Types
 type input = DisableImageDeprecationRequest.t
 type output = DisableImageDeprecationResult.t
 type error = Errors_internal.t

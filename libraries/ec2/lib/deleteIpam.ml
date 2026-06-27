@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteIpamRequest.t
 type output = DeleteIpamResult.t

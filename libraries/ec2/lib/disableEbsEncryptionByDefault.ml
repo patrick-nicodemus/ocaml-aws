@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DisableEbsEncryptionByDefaultRequest.t
 type output = DisableEbsEncryptionByDefaultResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = GetImageBlockPublicAccessStateRequest.t
 type output = GetImageBlockPublicAccessStateResult.t
 type error = Errors_internal.t

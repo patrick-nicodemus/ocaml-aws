@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ExportImageRequest.t
 type output = ExportImageResult.t

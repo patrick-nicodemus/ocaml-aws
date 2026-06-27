@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteClientVpnEndpointRequest.t
 type output = DeleteClientVpnEndpointResult.t

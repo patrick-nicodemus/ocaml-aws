@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateTransitGatewayRouteTableRequest.t
 type output = DisassociateTransitGatewayRouteTableResult.t
 type error = Errors_internal.t

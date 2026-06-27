@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateDelegateMacVolumeOwnershipTaskRequest.t
 type output = CreateDelegateMacVolumeOwnershipTaskResult.t

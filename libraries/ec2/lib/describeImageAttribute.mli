@@ -1,4 +1,3 @@
-open Types
 type input = DescribeImageAttributeRequest.t
 type output = ImageAttribute.t
 type error = Errors_internal.t

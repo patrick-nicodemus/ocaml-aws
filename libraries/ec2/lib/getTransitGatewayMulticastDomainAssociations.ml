@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetTransitGatewayMulticastDomainAssociationsRequest.t
 type output = GetTransitGatewayMulticastDomainAssociationsResult.t

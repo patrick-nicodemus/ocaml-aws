@@ -1,4 +1,3 @@
-open Types
 type input = DescribeTransitGatewayPolicyTablesRequest.t
 type output = DescribeTransitGatewayPolicyTablesResult.t
 type error = Errors_internal.t

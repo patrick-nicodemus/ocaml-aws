@@ -1,4 +1,3 @@
-open Types
 type input = ListSnapshotsInRecycleBinRequest.t
 type output = ListSnapshotsInRecycleBinResult.t
 type error = Errors_internal.t

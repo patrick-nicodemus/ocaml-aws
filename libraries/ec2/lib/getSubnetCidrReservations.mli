@@ -1,4 +1,3 @@
-open Types
 type input = GetSubnetCidrReservationsRequest.t
 type output = GetSubnetCidrReservationsResult.t
 type error = Errors_internal.t

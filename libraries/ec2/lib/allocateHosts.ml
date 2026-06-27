@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AllocateHostsRequest.t
 type output = AllocateHostsResult.t

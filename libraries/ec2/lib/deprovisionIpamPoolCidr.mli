@@ -1,4 +1,3 @@
-open Types
 type input = DeprovisionIpamPoolCidrRequest.t
 type output = DeprovisionIpamPoolCidrResult.t
 type error = Errors_internal.t

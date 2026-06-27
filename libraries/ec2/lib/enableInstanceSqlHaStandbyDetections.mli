@@ -1,4 +1,3 @@
-open Types
 type input = EnableInstanceSqlHaStandbyDetectionsRequest.t
 type output = EnableInstanceSqlHaStandbyDetectionsResult.t
 type error = Errors_internal.t

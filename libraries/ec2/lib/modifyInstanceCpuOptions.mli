@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceCpuOptionsRequest.t
 type output = ModifyInstanceCpuOptionsResult.t
 type error = Errors_internal.t

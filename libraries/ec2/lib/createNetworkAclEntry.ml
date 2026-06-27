@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateNetworkAclEntryRequest.t
 type output = unit

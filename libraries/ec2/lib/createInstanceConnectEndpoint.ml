@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateInstanceConnectEndpointRequest.t
 type output = CreateInstanceConnectEndpointResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeOutpostLagsRequest.t
 type output = DescribeOutpostLagsResult.t
 type error = Errors_internal.t

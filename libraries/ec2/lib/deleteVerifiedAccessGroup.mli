@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVerifiedAccessGroupRequest.t
 type output = DeleteVerifiedAccessGroupResult.t
 type error = Errors_internal.t

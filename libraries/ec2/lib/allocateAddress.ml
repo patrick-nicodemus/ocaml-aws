@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AllocateAddressRequest.t
 type output = AllocateAddressResult.t

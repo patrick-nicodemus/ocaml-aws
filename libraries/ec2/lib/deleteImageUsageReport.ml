@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteImageUsageReportRequest.t
 type output = DeleteImageUsageReportResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = RequestSpotInstancesRequest.t
 type output = RequestSpotInstancesResult.t
 type error = Errors_internal.t

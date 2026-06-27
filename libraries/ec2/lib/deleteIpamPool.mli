@@ -1,4 +1,3 @@
-open Types
 type input = DeleteIpamPoolRequest.t
 type output = DeleteIpamPoolResult.t
 type error = Errors_internal.t

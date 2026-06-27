@@ -1,4 +1,3 @@
-open Types
 type input = DeleteCoipCidrRequest.t
 type output = DeleteCoipCidrResult.t
 type error = Errors_internal.t

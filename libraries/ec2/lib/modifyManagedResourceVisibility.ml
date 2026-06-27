@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyManagedResourceVisibilityRequest.t
 type output = ModifyManagedResourceVisibilityResult.t

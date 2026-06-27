@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstancePlacementRequest.t
 type output = ModifyInstancePlacementResult.t

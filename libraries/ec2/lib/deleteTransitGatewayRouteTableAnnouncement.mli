@@ -1,4 +1,3 @@
-open Types
 type input = DeleteTransitGatewayRouteTableAnnouncementRequest.t
 type output = DeleteTransitGatewayRouteTableAnnouncementResult.t
 type error = Errors_internal.t

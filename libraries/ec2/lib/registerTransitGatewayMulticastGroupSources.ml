@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RegisterTransitGatewayMulticastGroupSourcesRequest.t
 type output = RegisterTransitGatewayMulticastGroupSourcesResult.t

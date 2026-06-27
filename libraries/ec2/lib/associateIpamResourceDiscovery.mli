@@ -1,4 +1,3 @@
-open Types
 type input = AssociateIpamResourceDiscoveryRequest.t
 type output = AssociateIpamResourceDiscoveryResult.t
 type error = Errors_internal.t

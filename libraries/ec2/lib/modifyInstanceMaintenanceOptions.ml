@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyInstanceMaintenanceOptionsRequest.t
 type output = ModifyInstanceMaintenanceOptionsResult.t

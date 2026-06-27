@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyLaunchTemplateRequest.t
 type output = ModifyLaunchTemplateResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeInstanceCreditSpecificationsRequest.t
 type output = DescribeInstanceCreditSpecificationsResult.t

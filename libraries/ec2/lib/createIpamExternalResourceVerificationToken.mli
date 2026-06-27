@@ -1,4 +1,3 @@
-open Types
 type input = CreateIpamExternalResourceVerificationTokenRequest.t
 type output = CreateIpamExternalResourceVerificationTokenResult.t
 type error = Errors_internal.t

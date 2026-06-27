@@ -1,4 +1,3 @@
-open Types
 type input = CreatePublicIpv4PoolRequest.t
 type output = CreatePublicIpv4PoolResult.t
 type error = Errors_internal.t

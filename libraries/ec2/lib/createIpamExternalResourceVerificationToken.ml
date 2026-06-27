@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateIpamExternalResourceVerificationTokenRequest.t
 type output = CreateIpamExternalResourceVerificationTokenResult.t

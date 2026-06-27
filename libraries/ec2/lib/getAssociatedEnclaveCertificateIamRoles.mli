@@ -1,4 +1,3 @@
-open Types
 type input = GetAssociatedEnclaveCertificateIamRolesRequest.t
 type output = GetAssociatedEnclaveCertificateIamRolesResult.t
 type error = Errors_internal.t

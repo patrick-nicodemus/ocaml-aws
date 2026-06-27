@@ -1,4 +1,3 @@
-open Types
 type input = UnassignPrivateNatGatewayAddressRequest.t
 type output = UnassignPrivateNatGatewayAddressResult.t
 type error = Errors_internal.t

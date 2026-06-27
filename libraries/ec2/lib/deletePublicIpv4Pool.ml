@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeletePublicIpv4PoolRequest.t
 type output = DeletePublicIpv4PoolResult.t

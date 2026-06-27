@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AuthorizeClientVpnIngressRequest.t
 type output = AuthorizeClientVpnIngressResult.t

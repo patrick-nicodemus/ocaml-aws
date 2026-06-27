@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteCoipCidrRequest.t
 type output = DeleteCoipCidrResult.t

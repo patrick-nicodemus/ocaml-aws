@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateInstanceExportTaskRequest.t
 type output = CreateInstanceExportTaskResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeExportTasksRequest.t
 type output = DescribeExportTasksResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = CreateRouteServerEndpointRequest.t
 type output = CreateRouteServerEndpointResult.t
 type error = Errors_internal.t

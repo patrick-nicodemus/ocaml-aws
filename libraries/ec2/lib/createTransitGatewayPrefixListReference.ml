@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateTransitGatewayPrefixListReferenceRequest.t
 type output = CreateTransitGatewayPrefixListReferenceResult.t

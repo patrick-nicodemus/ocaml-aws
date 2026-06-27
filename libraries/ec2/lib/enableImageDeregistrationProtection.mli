@@ -1,4 +1,3 @@
-open Types
 type input = EnableImageDeregistrationProtectionRequest.t
 type output = EnableImageDeregistrationProtectionResult.t
 type error = Errors_internal.t

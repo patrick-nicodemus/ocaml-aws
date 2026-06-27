@@ -1,4 +1,3 @@
-open Types
 type input = RejectCapacityReservationBillingOwnershipRequest.t
 type output = RejectCapacityReservationBillingOwnershipResult.t
 type error = Errors_internal.t

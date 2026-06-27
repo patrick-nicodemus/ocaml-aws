@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetImageAncestryRequest.t
 type output = GetImageAncestryResult.t

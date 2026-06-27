@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AssociateSubnetCidrBlockRequest.t
 type output = AssociateSubnetCidrBlockResult.t

@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstanceAttributeRequest.t
 type output = InstanceAttribute.t
 type error = Errors_internal.t

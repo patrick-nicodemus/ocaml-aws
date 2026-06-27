@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ReplaceRouteTableAssociationRequest.t
 type output = ReplaceRouteTableAssociationResult.t

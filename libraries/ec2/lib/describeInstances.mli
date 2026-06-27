@@ -1,4 +1,3 @@
-open Types
 type input = DescribeInstancesRequest.t
 type output = DescribeInstancesResult.t
 type error = Errors_internal.t

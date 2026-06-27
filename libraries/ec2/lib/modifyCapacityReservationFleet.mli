@@ -1,4 +1,3 @@
-open Types
 type input = ModifyCapacityReservationFleetRequest.t
 type output = ModifyCapacityReservationFleetResult.t
 type error = Errors_internal.t

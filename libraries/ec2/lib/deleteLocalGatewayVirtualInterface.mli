@@ -1,4 +1,3 @@
-open Types
 type input = DeleteLocalGatewayVirtualInterfaceRequest.t
 type output = DeleteLocalGatewayVirtualInterfaceResult.t
 type error = Errors_internal.t

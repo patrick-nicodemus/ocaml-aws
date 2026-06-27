@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVolumesModificationsRequest.t
 type output = DescribeVolumesModificationsResult.t

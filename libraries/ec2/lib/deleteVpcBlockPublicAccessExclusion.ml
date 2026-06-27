@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVpcBlockPublicAccessExclusionRequest.t
 type output = DeleteVpcBlockPublicAccessExclusionResult.t

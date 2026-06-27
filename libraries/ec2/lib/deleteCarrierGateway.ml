@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteCarrierGatewayRequest.t
 type output = DeleteCarrierGatewayResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = UnassignIpv6AddressesRequest.t
 type output = UnassignIpv6AddressesResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteRouteServerRequest.t
 type output = DeleteRouteServerResult.t

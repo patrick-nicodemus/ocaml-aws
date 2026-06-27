@@ -1,4 +1,3 @@
-open Types
 type input = ModifyInstanceMaintenanceOptionsRequest.t
 type output = ModifyInstanceMaintenanceOptionsResult.t
 type error = Errors_internal.t

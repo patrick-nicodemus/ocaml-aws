@@ -1,4 +1,3 @@
-open Types
 type input = DeleteEgressOnlyInternetGatewayRequest.t
 type output = DeleteEgressOnlyInternetGatewayResult.t
 type error = Errors_internal.t

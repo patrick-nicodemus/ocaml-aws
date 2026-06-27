@@ -1,4 +1,3 @@
-open Types
 type input = AllocateIpamPoolCidrRequest.t
 type output = AllocateIpamPoolCidrResult.t
 type error = Errors_internal.t

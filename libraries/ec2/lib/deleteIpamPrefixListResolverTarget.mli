@@ -1,4 +1,3 @@
-open Types
 type input = DeleteIpamPrefixListResolverTargetRequest.t
 type output = DeleteIpamPrefixListResolverTargetResult.t
 type error = Errors_internal.t

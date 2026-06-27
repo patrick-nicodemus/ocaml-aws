@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteSubnetRequest.t
 type output = unit

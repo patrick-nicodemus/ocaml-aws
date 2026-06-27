@@ -1,4 +1,3 @@
-open Types
 type input = DescribeVerifiedAccessGroupsRequest.t
 type output = DescribeVerifiedAccessGroupsResult.t
 type error = Errors_internal.t

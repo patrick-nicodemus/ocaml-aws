@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteInstanceEventWindowRequest.t
 type output = DeleteInstanceEventWindowResult.t

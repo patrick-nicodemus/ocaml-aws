@@ -1,4 +1,3 @@
-open Types
 type input = ModifyTrafficMirrorFilterNetworkServicesRequest.t
 type output = ModifyTrafficMirrorFilterNetworkServicesResult.t
 type error = Errors_internal.t

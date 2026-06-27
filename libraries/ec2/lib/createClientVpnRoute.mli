@@ -1,4 +1,3 @@
-open Types
 type input = CreateClientVpnRouteRequest.t
 type output = CreateClientVpnRouteResult.t
 type error = Errors_internal.t

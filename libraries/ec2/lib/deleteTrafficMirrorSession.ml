@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTrafficMirrorSessionRequest.t
 type output = DeleteTrafficMirrorSessionResult.t

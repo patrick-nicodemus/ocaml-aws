@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetTransitGatewayPolicyTableEntriesRequest.t
 type output = GetTransitGatewayPolicyTableEntriesResult.t

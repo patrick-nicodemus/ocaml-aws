@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ModifyVpcEncryptionControlRequest.t
 type output = ModifyVpcEncryptionControlResult.t

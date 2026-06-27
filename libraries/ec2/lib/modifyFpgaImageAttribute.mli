@@ -1,4 +1,3 @@
-open Types
 type input = ModifyFpgaImageAttributeRequest.t
 type output = ModifyFpgaImageAttributeResult.t
 type error = Errors_internal.t

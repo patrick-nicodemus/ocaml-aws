@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateVpnConcentratorRequest.t
 type output = CreateVpnConcentratorResult.t

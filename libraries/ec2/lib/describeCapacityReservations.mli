@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCapacityReservationsRequest.t
 type output = DescribeCapacityReservationsResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = PurchaseScheduledInstancesRequest.t
 type output = PurchaseScheduledInstancesResult.t

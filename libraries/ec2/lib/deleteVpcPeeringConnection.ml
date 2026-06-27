@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteVpcPeeringConnectionRequest.t
 type output = DeleteVpcPeeringConnectionResult.t

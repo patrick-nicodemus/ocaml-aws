@@ -1,4 +1,3 @@
-open Types
 type input = DescribeScheduledInstanceAvailabilityRequest.t
 type output = DescribeScheduledInstanceAvailabilityResult.t
 type error = Errors_internal.t

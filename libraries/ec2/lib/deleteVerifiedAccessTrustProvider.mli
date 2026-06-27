@@ -1,4 +1,3 @@
-open Types
 type input = DeleteVerifiedAccessTrustProviderRequest.t
 type output = DeleteVerifiedAccessTrustProviderResult.t
 type error = Errors_internal.t

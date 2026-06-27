@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetVerifiedAccessEndpointPolicyRequest.t
 type output = GetVerifiedAccessEndpointPolicyResult.t

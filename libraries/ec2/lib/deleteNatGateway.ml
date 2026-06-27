@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteNatGatewayRequest.t
 type output = DeleteNatGatewayResult.t

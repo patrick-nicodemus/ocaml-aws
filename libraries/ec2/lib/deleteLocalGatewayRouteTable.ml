@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteLocalGatewayRouteTableRequest.t
 type output = DeleteLocalGatewayRouteTableResult.t

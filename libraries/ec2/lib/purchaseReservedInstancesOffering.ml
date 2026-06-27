@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = PurchaseReservedInstancesOfferingRequest.t
 type output = PurchaseReservedInstancesOfferingResult.t

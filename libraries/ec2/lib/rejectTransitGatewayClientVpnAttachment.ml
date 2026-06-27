@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = RejectTransitGatewayClientVpnAttachmentRequest.t
 type output = RejectTransitGatewayClientVpnAttachmentResult.t

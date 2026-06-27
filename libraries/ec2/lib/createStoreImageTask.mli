@@ -1,4 +1,3 @@
-open Types
 type input = CreateStoreImageTaskRequest.t
 type output = CreateStoreImageTaskResult.t
 type error = Errors_internal.t

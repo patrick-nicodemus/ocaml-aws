@@ -1,4 +1,3 @@
-open Types
 type input = DeleteInstanceConnectEndpointRequest.t
 type output = DeleteInstanceConnectEndpointResult.t
 type error = Errors_internal.t

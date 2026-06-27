@@ -1,4 +1,3 @@
-open Types
 type input = PurchaseHostReservationRequest.t
 type output = PurchaseHostReservationResult.t
 type error = Errors_internal.t

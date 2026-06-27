@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ResetNetworkInterfaceAttributeRequest.t
 type output = unit

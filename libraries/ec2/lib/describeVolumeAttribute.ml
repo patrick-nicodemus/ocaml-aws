@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeVolumeAttributeRequest.t
 type output = DescribeVolumeAttributeResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateSnapshotsRequest.t
 type output = CreateSnapshotsResult.t

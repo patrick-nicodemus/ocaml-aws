@@ -1,4 +1,3 @@
-open Types
 type input = DescribeByoipCidrsRequest.t
 type output = DescribeByoipCidrsResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeManagedPrefixListsRequest.t
 type output = DescribeManagedPrefixListsResult.t

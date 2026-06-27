@@ -1,4 +1,3 @@
-open Types
 type input = RestoreSnapshotTierRequest.t
 type output = RestoreSnapshotTierResult.t
 type error = Errors_internal.t

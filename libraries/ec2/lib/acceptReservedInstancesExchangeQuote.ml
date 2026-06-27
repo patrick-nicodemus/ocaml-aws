@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AcceptReservedInstancesExchangeQuoteRequest.t
 type output = AcceptReservedInstancesExchangeQuoteResult.t

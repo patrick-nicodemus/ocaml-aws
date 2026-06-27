@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = AdvertiseByoipCidrRequest.t
 type output = AdvertiseByoipCidrResult.t

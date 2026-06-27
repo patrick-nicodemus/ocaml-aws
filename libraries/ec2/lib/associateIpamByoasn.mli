@@ -1,4 +1,3 @@
-open Types
 type input = AssociateIpamByoasnRequest.t
 type output = AssociateIpamByoasnResult.t
 type error = Errors_internal.t

@@ -1,4 +1,3 @@
-open Types
 type input = GetCapacityManagerMetricDimensionsRequest.t
 type output = GetCapacityManagerMetricDimensionsResult.t
 type error = Errors_internal.t

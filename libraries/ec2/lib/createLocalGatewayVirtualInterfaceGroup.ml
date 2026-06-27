@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = CreateLocalGatewayVirtualInterfaceGroupRequest.t
 type output = CreateLocalGatewayVirtualInterfaceGroupResult.t

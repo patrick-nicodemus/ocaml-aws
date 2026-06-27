@@ -1,4 +1,3 @@
-open Types
 type input = CreateLaunchTemplateRequest.t
 type output = CreateLaunchTemplateResult.t
 type error = Errors_internal.t

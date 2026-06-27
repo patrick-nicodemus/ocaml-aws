@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = ProvisionByoipCidrRequest.t
 type output = ProvisionByoipCidrResult.t

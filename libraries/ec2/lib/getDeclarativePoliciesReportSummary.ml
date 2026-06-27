@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetDeclarativePoliciesReportSummaryRequest.t
 type output = GetDeclarativePoliciesReportSummaryResult.t

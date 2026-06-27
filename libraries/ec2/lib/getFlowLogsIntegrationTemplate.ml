@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetFlowLogsIntegrationTemplateRequest.t
 type output = GetFlowLogsIntegrationTemplateResult.t

@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DeleteTagsRequest.t
 type output = unit

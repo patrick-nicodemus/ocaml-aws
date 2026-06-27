@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = DescribeIpamPoliciesRequest.t
 type output = DescribeIpamPoliciesResult.t

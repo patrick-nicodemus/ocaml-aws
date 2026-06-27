@@ -1,4 +1,3 @@
-open Types
 type input = GetInstanceUefiDataRequest.t
 type output = GetInstanceUefiDataResult.t
 type error = Errors_internal.t

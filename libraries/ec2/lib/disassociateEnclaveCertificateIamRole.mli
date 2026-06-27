@@ -1,4 +1,3 @@
-open Types
 type input = DisassociateEnclaveCertificateIamRoleRequest.t
 type output = DisassociateEnclaveCertificateIamRoleResult.t
 type error = Errors_internal.t

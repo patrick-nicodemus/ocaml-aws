@@ -1,4 +1,3 @@
-open Types
 open Aws
 type input = GetSnapshotBlockPublicAccessStateRequest.t
 type output = GetSnapshotBlockPublicAccessStateResult.t

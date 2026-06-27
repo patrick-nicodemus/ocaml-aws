@@ -1,4 +1,3 @@
-open Types
 type input = DescribeSecurityGroupVpcAssociationsRequest.t
 type output = DescribeSecurityGroupVpcAssociationsResult.t
 type error = Errors_internal.t

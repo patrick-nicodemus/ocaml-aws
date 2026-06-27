@@ -1,4 +1,3 @@
-open Types
 type input = DescribeCapacityBlockStatusRequest.t
 type output = DescribeCapacityBlockStatusResult.t
 type error = Errors_internal.t
