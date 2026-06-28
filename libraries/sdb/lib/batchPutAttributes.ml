@@ -1,14 +1,10 @@
-open Types
 open Aws
 
 type input = BatchPutAttributesRequest.t
-
 type output = unit
-
 type error = Errors_internal.t
 
 let service = "sdb"
-
 let signature_version = Request.V2
 
 let to_http service region req =
@@ -40,11 +36,12 @@ let parse_error code err =
   in
   match Errors_internal.of_string err with
   | Some var ->
-      if List.mem var errors
-         &&
-         match Errors_internal.to_http_code var with
-         | Some var -> var = code
-         | None -> true
+      if
+        List.mem var errors
+        &&
+        match Errors_internal.to_http_code var with
+        | Some var -> var = code
+        | None -> true
       then Some var
       else None
   | None -> None

@@ -5,9 +5,7 @@ module Hash = struct
     | None -> Digestif.SHA256.digest_string str
 
   let sha256 ?key str = _sha256 ?key str |> Digestif.SHA256.to_raw_string
-
   let sha256_hex ?key str = _sha256 ?key str |> Digestif.SHA256.to_hex
-
   let sha256_base64 ?key str = Base64.encode_string @@ sha256 ?key str
 end
 
@@ -138,8 +136,8 @@ let sign_v2_request ~access_key ~secret_key ?token ~service ~region (meth, uri, 
     Uri.add_query_params'
       uri
       ((match token with
-       | Some t -> [ "SecurityToken", t ]
-       | None -> [])
+         | Some t -> [ "SecurityToken", t ]
+         | None -> [])
       @ [ "Timestamp", amzdate
         ; "AWSAccessKeyId", access_key
         ; "SignatureMethod", "HmacSHA256"
