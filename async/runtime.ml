@@ -75,7 +75,7 @@ let run_request
       >>= fun (resp, body_comp) ->
       Body.to_string body_comp
       >>| fun body ->
-      let code = Code.code_of_status (Response.status resp) in
+      let code = Code.code_of_status (Cohttp.Response.status resp) in
       if code >= 300
       then
         let open Aws.Error in
