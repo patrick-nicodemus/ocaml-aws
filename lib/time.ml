@@ -18,4 +18,4 @@ let parse s =
     "%Y-%m-%dT%TZ"
     (Str.replace_first (Str.regexp "\\.\\([0-9][0-9][0-9]\\)") "" s)
 
-let format t = P.sprint "%Y-%m-%dT%T.000Z" t
+let format t = P.sprint "%Y-%m-%dT%TZ" t
