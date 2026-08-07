@@ -17,7 +17,7 @@ let to_http service region req =
             (Uri.query_of_encoded
                (Query.render (DeleteQueryLoggingConfigRequest.to_query req)))))
   in
-  `DELETE, uri, []
+  `DELETE, uri, [], ""
 
 let of_http body = `Ok ()
 

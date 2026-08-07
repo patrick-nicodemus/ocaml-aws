@@ -50,7 +50,7 @@ let run_request
        and type output = output
        and type error = error)
     (inp : M.input) =
-  let meth, uri, headers =
+  let meth, uri, headers, body =
     match M.signature_version with
     | V4 | S3 ->
         Aws.Signing.sign_request
@@ -71,7 +71,7 @@ let run_request
   in
   let headers = Header.of_list headers in
   try_with (fun () ->
-      Client.call ~headers meth uri
+      Client.call ~headers ~body:(Body.of_string body) meth uri
       >>= fun (resp, body_comp) ->
       Body.to_string body_comp
       >>| fun body ->

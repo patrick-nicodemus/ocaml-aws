@@ -13,7 +13,7 @@ let to_http service region req =
       (Uri.of_string (Aws.Util.of_option_exn (Endpoints.url_of service region)))
       [ "Version", [ "2010-08-01" ]; "Action", [ "StartOTelEnrichment" ] ]
   in
-  `POST, uri, []
+  `POST, uri, [], ""
 
 let of_http body = `Ok ()
 

@@ -16,7 +16,7 @@ let to_http service region req =
          (Util.drop_empty
             (Uri.query_of_encoded (Query.render (ModifyUserMessage.to_query req)))))
   in
-  `POST, uri, []
+  `POST, uri, [], ""
 
 let of_http body =
   try

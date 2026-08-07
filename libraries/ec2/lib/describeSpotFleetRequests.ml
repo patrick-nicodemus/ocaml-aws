@@ -8,16 +8,16 @@ let service = "ec2"
 let signature_version = Request.V4
 
 let to_http service region req =
-  let uri =
-    Uri.add_query_params
-      (Uri.of_string (Aws.Util.of_option_exn (Endpoints.url_of service region)))
-      (List.append
-         [ "Version", [ "2016-11-15" ]; "Action", [ "DescribeSpotFleetRequests" ] ]
-         (Util.drop_empty
-            (Uri.query_of_encoded
-               (Query.render (DescribeSpotFleetRequestsRequest.to_query req)))))
+  let uri = Uri.of_string (Aws.Util.of_option_exn (Endpoints.url_of service region)) in
+  let body =
+    Query.render
+      (Aws.Query.List
+         [ Aws.Query.Pair ("Action", Aws.Query.Value (Some "DescribeSpotFleetRequests"))
+         ; Aws.Query.Pair ("Version", Aws.Query.Value (Some "2016-11-15"))
+         ; DescribeSpotFleetRequestsRequest.to_query req
+         ])
   in
-  `POST, uri, []
+  `POST, uri, [ "Content-Type", "application/x-www-form-urlencoded; charset=utf-8" ], body
 
 let of_http body =
   try

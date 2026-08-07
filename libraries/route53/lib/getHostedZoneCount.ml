@@ -13,7 +13,7 @@ let to_http service region req =
       (Uri.of_string (Aws.Util.of_option_exn (Endpoints.url_of service region)))
       [ "Version", [ "2013-04-01" ]; "Action", [ "GetHostedZoneCount" ] ]
   in
-  `GET, uri, []
+  `GET, uri, [], ""
 
 let of_http body =
   try

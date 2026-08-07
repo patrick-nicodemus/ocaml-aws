@@ -103,8 +103,8 @@ module Request : sig
     | V2
     | S3  (** Signature version *)
 
-  type t = meth * Uri.t * headers
-  (** A request is a method, a uri, and a list of headers. *)
+  type t = meth * Uri.t * headers * string
+  (** A request is a method, a uri, a list of headers, and a body. *)
 end
 
 (** All AWS api operations should have type Call. Runtime implementation should take as

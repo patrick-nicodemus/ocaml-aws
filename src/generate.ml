@@ -572,29 +572,78 @@ let op ?(split = false) service version _shapes op signature_version =
       ]
   in
   let to_body =
-    letin
-      "uri"
-      (app2
-         "Uri.add_query_params"
-         (app1
-            "Uri.of_string"
-            (app1
-               "Aws.Util.of_option_exn"
-               (app2 "Endpoints.url_of" (ident "service") (ident "region"))))
-         (match op.Operation.input_shape with
-         | None -> defaults
-         | Some input_shape ->
-             app2
-               "List.append"
-               defaults
-               (app1
-                  "Util.drop_empty"
-                  (app1
-                     "Uri.query_of_encoded"
-                     (app1
-                        "Query.render"
-                        (app1 (input_shape ^ ".to_query") (ident "req")))))))
-      (tuple [ variant op.Operation.http_meth; ident "uri"; list [] ])
+    match signature_version with
+    | "v2" ->
+        letin
+          "uri"
+          (app2
+             "Uri.add_query_params"
+             (app1
+                "Uri.of_string"
+                (app1
+                   "Aws.Util.of_option_exn"
+                   (app2 "Endpoints.url_of" (ident "service") (ident "region"))))
+             (match op.Operation.input_shape with
+             | None -> defaults
+             | Some input_shape ->
+                 app2
+                   "List.append"
+                   defaults
+                   (app1
+                      "Util.drop_empty"
+                      (app1
+                         "Uri.query_of_encoded"
+                         (app1
+                            "Query.render"
+                            (app1 (input_shape ^ ".to_query") (ident "req")))))))
+          (tuple [ variant op.Operation.http_meth; ident "uri"; list []; str "" ])
+    | _ ->
+        (* Query-protocol requests carry their parameters as a form-encoded
+           body rather than a URL query string. Uri's query serializer treats
+           '=' as legal unescaped inside a query value (RFC 3986 permits it),
+           but AWS's query-string parser doesn't, so any value needing '='
+           verbatim (e.g. padded base64) breaks a URL-embedded request. A
+           request body is just bytes to Cohttp, so it isn't run through
+           that serializer at all. *)
+        let defaults_query =
+          app1
+            "Aws.Query.List"
+            (list
+               [ app1
+                   "Aws.Query.Pair"
+                   (pair
+                      (str "Action")
+                      (app1 "Aws.Query.Value" (app1 "Some" (str op.Operation.name))))
+               ; app1
+                   "Aws.Query.Pair"
+                   (pair (str "Version") (app1 "Aws.Query.Value" (app1 "Some" (str version))))
+               ])
+        in
+        let body_query =
+          match op.Operation.input_shape with
+          | None -> defaults_query
+          | Some input_shape ->
+              app1
+                "Aws.Query.List"
+                (list [ defaults_query; app1 (input_shape ^ ".to_query") (ident "req") ])
+        in
+        letin
+          "uri"
+          (app1
+             "Uri.of_string"
+             (app1
+                "Aws.Util.of_option_exn"
+                (app2 "Endpoints.url_of" (ident "service") (ident "region"))))
+          (tuple
+             [ variant op.Operation.http_meth
+             ; ident "uri"
+             ; list
+                 [ pair
+                     (str "Content-Type")
+                     (str "application/x-www-form-urlencoded; charset=utf-8")
+                 ]
+             ; app1 "Aws.Query.render" body_query
+             ])
   in
   let of_body =
     match op.Operation.output_shape with

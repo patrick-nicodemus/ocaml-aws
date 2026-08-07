@@ -17,7 +17,7 @@ let to_http service region req =
             (Uri.query_of_encoded
                (Query.render (UpdateAutoScalingGroupType.to_query req)))))
   in
-  `POST, uri, []
+  `POST, uri, [], ""
 
 let of_http body = `Ok ()
 

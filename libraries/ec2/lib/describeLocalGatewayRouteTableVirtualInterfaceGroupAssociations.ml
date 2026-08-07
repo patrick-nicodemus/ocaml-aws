@@ -22,7 +22,7 @@ let to_http service region req =
                    .to_query
                      req)))))
   in
-  `POST, uri, []
+  `POST, uri, [], ""
 
 let of_http body =
   try

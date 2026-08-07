@@ -17,7 +17,7 @@ let to_http service region req =
             (Uri.query_of_encoded
                (Query.render (ListCidrCollectionsRequest.to_query req)))))
   in
-  `GET, uri, []
+  `GET, uri, [], ""
 
 let of_http body =
   try
